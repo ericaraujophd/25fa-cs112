@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to your Jupyter Book &#8212; CS112 - Data Structures</title>
+    <title>Welcome to Data Structures &#8212; CS112 - Data Structures</title>
   
   
   
@@ -178,7 +178,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome to your Jupyter Book
+                    Welcome to Data Structures
                 </a>
             </li>
         </ul>
@@ -358,7 +358,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -369,11 +371,22 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to your Jupyter Book</h1>
+    <h1>Welcome to Data Structures</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#student-learning-outcomes">Student Learning Outcomes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-organization">Course Organization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">Instructors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#office-hours">Office Hours</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -383,13 +396,42 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Link to this heading">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-data-structures">
+<h1>Welcome to Data Structures<a class="headerlink" href="#welcome-to-data-structures" title="Link to this heading">#</a></h1>
+<p>CS112 uses the C++ programming language to introduce students to the elementary data structures (vectors, lists, stacks, queues, binary search trees, …), recursion, big-oh notation, and other intermediate-level programming topics.</p>
+<p>This a permanently in construction website, so please let us know if you find any information missing or had some bad experience with the links and interface throughout the semester.</p>
+<section id="student-learning-outcomes">
+<h2>Student Learning Outcomes<a class="headerlink" href="#student-learning-outcomes" title="Link to this heading">#</a></h2>
+<p>Upon successful completion of this course students will be able to:</p>
+<ul class="simple">
+<li><p>Use indirection (pointers) and run-time memory allocation to implement dynamic, generic container classes (e.g., vectors, lists, stacks, queues, trees, etc.).</p></li>
+<li><p>Analyze, categorize, and compare the complexity of data structure operations using “big-oh” notation.</p></li>
+<li><p>Design and implement recursive data structure operations.</p></li>
+<li><p>Design, create, and use unit-tests to test the correctness of data structure operations.</p></li>
+<li><p>For select algorithms, use simple parallel computing techniques to improve algorithm performance and measure the improvement.</p></li>
+</ul>
+</section>
+<section id="course-organization">
+<h2>Course Organization<a class="headerlink" href="#course-organization" title="Link to this heading">#</a></h2>
+<p>The course is organized around these components:</p>
+<ol class="arabic simple">
+<li><p>The lectures that will introduce data structures topics at the conceptual level;</p></li>
+<li><p>The labs in which students will (in pairs) practice using and building data structures; and</p></li>
+<li><p>The projects in which students will (individually) practice using and building data structures.</p></li>
+</ol>
+<p>Each week’s lectures, labs and projects will cover the same concepts, but will do so in different ways.</p>
+<p>The first 4 weeks will be dedicated to learning C++. After that, we will begin studying data structures.</p>
+</section>
+<section id="instructors">
+<h2>Instructors<a class="headerlink" href="#instructors" title="Link to this heading">#</a></h2>
+<p>This course has as instructors: Prof. Eric Araújo and Prof. Christopher Wieringa.</p>
+</section>
+<section id="office-hours">
+<h2>Office Hours<a class="headerlink" href="#office-hours" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://outlook.office365.com/calendar/published/c0bd07a3f1d64aaf9a74c91921ce7536&#64;calvin.edu/79189cd730424803bceba861959c7e752179000899390454025/calendar.html">Prof. Araújo’s hours</a>{target=”_blank”}</p></li>
+<li><p><a class="reference internal" href="#"><span class="xref myst">Prof. Wieringa’s hours</span></a>{target=”_blank”}</p></li>
+</ul>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
@@ -397,6 +439,7 @@ It does not go in-depth into any particular topic - check out <a class="referenc
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -444,6 +487,24 @@ It does not go in-depth into any particular topic - check out <a class="referenc
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#student-learning-outcomes">Student Learning Outcomes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-organization">Course Organization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">Instructors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#office-hours">Office Hours</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
