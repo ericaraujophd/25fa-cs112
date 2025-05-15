@@ -3,7 +3,12 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  # Policies
+  - caption: Course Policies
+    numbered: false
+    chapters:
+      - file: policies/content
+      - file: policies/grading
+      - file: policies/honesty
+      - file: policies/classroom
