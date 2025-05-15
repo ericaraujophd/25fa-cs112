@@ -10,9 +10,9 @@ CS112 is organized by week, with each week structured as follows:
 - Your project submission is due the next Monday at 23:59 (the night before your next lab).
 - Tutoring Assistants are available in SB337 on Mondays and Thursdays, from 7 - 9 pm.
 
-The SLOs (Student Learning Objectives), labs, and projects for each week are given in the links below. The readings are from [C++ for Python Programmers Book](https://runestone.academy/runestone/books/published/cpp4python/index.html){target="_blank"}.
+The SLOs (Student Learning Objectives), labs, and projects for each week are given in the links below. The readings are from [C++ for Python Programmers Book](https://runestone.academy/runestone/books/published/cpp4python/index.html).
 
-| Week 	| Date 	| Topics 	| Labs 	| Projects 	| Tests, Breaks, etc. 	|
+| Week 	| Initial Date 	| Topics 	| Laboratories 	| Projects 	| Tests, Breaks, etc. 	|
 |---	|---	|---	|---	|---	|---	|
 | 0 	| 1-Sep 	| Intro to C++, compilation, Data Types (including pointers), const, binary and hexadecimal, arrays, using cout/cin. 	| Lab 0 	| Proj 0 	|  	|
 | 1 	| 8-Sep 	| Control Structures, Functions, Parameter Passing modes. 	| Lab 1 	| Proj 1 	|  	|
