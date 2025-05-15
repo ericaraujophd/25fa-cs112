@@ -2,6 +2,14 @@
 
 Your grade in this course will be based on:
 
+| Activity 	| Weight 	| Observation 	|
+|---	|---	|---	|
+| Daily Quizzes 	| 5% 	| The lowest 3 quizzes will be dropped. 	|
+| Labs 	| 20% 	|  	|
+| Homework projects 	| 25% 	|  	|
+| Tests (4) 	| 30% 	| The lowest test score will be dropped. 	|
+| Final Exam 	| 20% 	|  	|
+
 -   **Daily Quizzes:** 5%
     -   The lowest 3 quizzes will be dropped.
 -   **Labs:** 20%
@@ -9,7 +17,7 @@ Your grade in this course will be based on:
 -   **Tests (5, including the final test during the Exam time):** 50%
     -   The lowest test score will be dropped. Final test has to be taken as it does not count for the lowest score.
 
-# Grading and Late Work Policies
+## Grading and Late Work Policies
 
 1.  Each exercise and project will have a **Due date** associated with it. This is the date by which you should submit your work in order to avoid falling behind in the course.
 2.  Each day that your submission is late, you will be assessed a **penalty of 10%** (unless you use grace days -- see below).
