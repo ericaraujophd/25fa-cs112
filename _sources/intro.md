@@ -28,12 +28,12 @@ The first 4 weeks will be dedicated to learning C++. After that, we will begin s
 
 ## Instructors
 
-This course has as instructors: Prof. Eric Araújo and Prof. Christopher Wieringa.
+This course has as instructors: Prof. Eric Araújo (eric.araujo@calvin.edu) and Prof. Christopher Wieringa (chris.wieringa@calvin.edu).
 
-## Office Hours
+### Office Hours
 
--   [Prof. Araújo's hours](https://outlook.office365.com/calendar/published/c0bd07a3f1d64aaf9a74c91921ce7536@calvin.edu/79189cd730424803bceba861959c7e752179000899390454025/calendar.html){target="_blank"}
--   [Prof. Wieringa's hours](){target="_blank"}
+-   [Prof. Araújo's hours](https://outlook.office365.com/calendar/published/c0bd07a3f1d64aaf9a74c91921ce7536@calvin.edu/79189cd730424803bceba861959c7e752179000899390454025/calendar.html)
+-   [Prof. Wieringa's hours]()
 
 
 ```{tableofcontents}
