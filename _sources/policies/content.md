@@ -1,9 +1,10 @@
 # Course Content
 
-CS 112 is organized by week, with each week structured as follows:
+CS112 is organized by week, with each week structured as follows:
 
-- Classroom sessions are Monday-Wednesday-Friday.
-    -   Prof. Araújo lectures' codes are [available in here](https://github.com/25sp-cs112-org/cs112b-codes){target="_blank"}
+- Classroom sessions are Monday-Wednesday-Friday. 
+- **Section A** meets at 12:15 pm, and **Section B** meets at 1:30 pm at SB382.
+    - Prof. Araújo lectures' codes are [available in here]()
 - The lab sessions are on Tuesdays.
 - Your lab submission is due Thursday at 23:59.
 - Your project submission is due the next Monday at 23:59 (the night before your next lab).
@@ -11,23 +12,21 @@ CS 112 is organized by week, with each week structured as follows:
 
 The SLOs (Student Learning Objectives), labs, and projects for each week are given in the links below. The readings are from [C++ for Python Programmers Book](https://runestone.academy/runestone/books/published/cpp4python/index.html){target="_blank"}.
 
-| Week | Topics | Laboratories | Projects | Tests, Video Links, etc. |
-|---------------|---------------|---------------|---------------|---------------|
-| 00 <br> --- <br> 1/21 | Intro to C++, compilation, Data Types (including pointers), const, binary and hexadecimal, arrays, using cout/cin. <br> [Week's page](/week00.qmd) | [Lab 0](/labs/lab00.qmd) | [Proj 0](/projects/proj00.qmd) |  |
-| 01 <br> --- <br> 1/27 | Control Structures, Functions, Parameter Passing modes. <br>[Week's page](/week01.qmd) | [Lab 1](/labs/lab01.qmd) | [Proj 1](/projects/proj01.qmd) |  |
-| 02 <br> --- <br> 2/3 | File Input/Output, Exception Handling, Two-dimensional Arrays. <br>[Week's page](/week02.qmd) | [Lab 2](/labs/lab02.qmd) | [Proj 2](/projects/proj02.qmd) |  |
-| 03 <br> --- <br> 2/10 | Classes, Operator Overloading, etc. <br>[Week's page](/week03.qmd) | [Lab 3](/labs/lab03.qmd) | [Proj 3](/projects/proj03.qmd) | **Test 1:** Weeks 0 - 2, Friday. |
-| 04 <br> --- <br> 2/17 | Vectors -- Dynamic Arrays <br>[Week's page](/week04.qmd) | [Lab 4](/labs/lab04.qmd) | [Proj 4](/projects/proj04.qmd) |  |
-| 05 <br> --- <br> 2/24 | Generic Containers <br>[Week's page](/week05.qmd) | [Lab 5](/labs/lab05.qmd) | [Proj 5](/projects/proj05.qmd) |  |
-| 06 <br> --- <br> 3/3 | Linked Lists, Dynamic Array or Linked List <br> [Week's page](/week06.qmd) | [Lab 6](/labs/lab06.qmd) | No project | **Test 2:** Weeks 0 - 5, Friday |
-| 07 <br> --- <br> 3/10 | Spring Break <br> [Week's page](/week07.qmd) | No lab | No project |  |
-| 08 <br> --- <br> 3/17 | Algorithm Analysis and Big-Oh <br> [Week's page](/week08.qmd) | [Lab 8](/labs/lab08.qmd) | [Proj 8](/projects/proj08-Conga.qmd) |  |
-| 09 <br> --- <br> 3/24 | Stacks and Queues <br> Advising days – no class 26-27 <br>[Week's page](/week09.qmd) | [Lab 9](/labs/lab09.qmd) | [Proj 9](/projects/proj09.qmd) |  |
-| 10 <br> --- <br> 3/31 | Recursion <br>[Week's page](/week10.qmd) | [Lab 10](/labs/lab10.qmd) | [Proj 10](/projects/proj10.qmd) | **Test 3:** Weeks 0 - 9, Friday |
-| 11 <br> --- <br> 4/7 | BSTs <br>[Week's page](/week11.qmd) | [Lab 11](/labs/lab11.qmd) | [Proj 11](/projects/proj11.qmd) |  |
-| 12 <br> --- <br> 4/14 | AVL Trees <br> Good Friday & Easter Monday – no class 18-21 <br> [Week's page](/week12.qmd) | No lab | No project |  |
-| 13 <br> --- <br> 4/22 | STL set and map containers <br>[Week's page](/week13.qmd) | [Lab 13](/labs/lab13.qmd) | No project | **Test 4:** Weeks 0 - 12, Friday |
-| 14 <br> --- <br> 4/28 | Hash Tables, Sorting Algorithms <br>[Week's page](/week14.qmd) | [Lab 14](/labs/lab14.qmd) |  |  |
-| Final <br> --- <br> May 3-8 | Search calvin.edu for "Exam Schedule" to find the time of the exam (and all exams you have, this semester, and all future semesters). |  |  | Test 5 Cumulative, during exam time (You may take it in either class's exam time. Classes met at 11am MWF and 12:15 MWF.) |
-
-<!-- | 11   |   | OpenMP, etc. [SLOs] [Slides]  | Lab 11    | Project 11    |   | -->
+| Week 	| Date 	| Topics 	| Laboratories 	| Projects 	| Tests, Breaks, etc. 	|
+|---	|---	|---	|---	|---	|---	|
+| 0 	| 1-Sep 	| Intro to C++, compilation, Data Types (including pointers), const, binary and hexadecimal, arrays, using cout/cin. 	| Lab 0 	| Proj 0 	|  	|
+| 1 	| 8-Sep 	| Control Structures, Functions, Parameter Passing modes. 	| Lab 1 	| Proj 1 	|  	|
+| 2 	| 15-Sep 	| File Input/Output, Exception Handling, Two-dimensional Arrays. 	| Lab 2 	| Proj 2 	|  	|
+| 3 	| 22-Sep 	| Classes, Operator Overloading, etc. 	| Lab 3 	| Proj 3 	| Test 1: Weeks   0 - 2, Friday. 	|
+| 4 	| 29-Sep 	| Vectors – Dynamic Arrays 	| Lab 4 	| Proj 4 	|  	|
+| 5 	| 6-Oct 	| Generic Containers 	| Lab 5 	| Proj 5 	|  	|
+| 6 	| 13-Oct 	| Linked Lists, Dynamic Array or Linked List 	| Lab 6 	| No project 	| Test 2: Weeks   0 - 5, Friday 	|
+| 7 	| 20-Oct 	| Fall Break + Advising Days 	| No lab 	| No project 	|  	|
+| 8 	| 27-Oct 	| Algorithm Analysis and Big-Oh 	| Lab 8 	| Proj 8 	|  	|
+| 9 	| 3-Nov 	| Stacks and Queues 	| Lab 9 	| Proj 9 	| Week of Grace Hopper 	|
+| 10 	| 10-Nov 	| Recursion 	| Lab 10 	| Proj 10 	| Test 3: Weeks   0 - 9, Friday 	|
+| 11 	| 17-Nov 	| BSTs 	| Lab 11 	| Proj 11 	|  	|
+| 12 	| 24-Nov 	| AVL Trees 	| No lab 	| No project 	| Thanksgiving Break – no class   26-28 	|
+| 13 	| 1-Dec 	| STL set and map containers 	| Lab 13 	| No project 	| Test 4: Weeks   0 - 12, Friday 	|
+| 14 	| 8-Dec 	| Hash Tables, Sorting Algorithms 	| Lab 14 	|  	|  	|
+| Final 	|  	| Search calvin.edu for "Exam Schedule" to find the time of the exam (and all exams you have, this semester, and all future semesters). 	|  	|  	| Test 5 Cumulative, during exam time (You may take it in either class’s exam time. Classes met at 12.15pm MWF and 1:30pm MWF.) 	|
