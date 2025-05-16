@@ -1,4 +1,4 @@
-# Student Learning Objectives (SLOs) for Week 00
+# Student Learning Objectives (SLOs)
 
 At the end of this unit, students will be able to...
 
