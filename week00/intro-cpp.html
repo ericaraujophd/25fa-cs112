@@ -361,7 +361,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -377,6 +379,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hello-world-in-c">2.1. Hello World in C++</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#injection-operator">2.2. Injection Operator</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-word-about-flush">2.3. A word about <code class="docutils literal notranslate"><span class="pre">flush</span></code></a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -388,6 +400,134 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-c">
 <h1><span class="section-number">2. </span>Introduction to C++<a class="headerlink" href="#introduction-to-c" title="Link to this heading">#</a></h1>
+<p>Welcome to the C++ programming language! C++ is a powerful, high-performance language that is widely used in system/software development, game development, and applications requiring real-time processing.</p>
+<p>C++ is an extension of the C programming language, adding object-oriented features and other enhancements. It supports both procedural and object-oriented programming paradigms, making it versatile for various applications.</p>
+<p>We can list the main differences between C++ and Python (as most of you learned Python in CS106 or CS108) as follows:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Feature</p></th>
+<th class="head"><p>C++</p></th>
+<th class="head"><p>Python</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Typing</p></td>
+<td><p>Statically typed</p></td>
+<td><p>Dynamically typed</p></td>
+</tr>
+<tr class="row-odd"><td><p>Compilation</p></td>
+<td><p>Compiled</p></td>
+<td><p>Interpreted</p></td>
+</tr>
+<tr class="row-even"><td><p>Syntax</p></td>
+<td><p>More complex, requires semicolons and braces</p></td>
+<td><p>Simpler, uses indentation</p></td>
+</tr>
+<tr class="row-odd"><td><p>Memory Management</p></td>
+<td><p>Manual (using pointers)</p></td>
+<td><p>Automatic (garbage collection)</p></td>
+</tr>
+<tr class="row-even"><td><p>Performance</p></td>
+<td><p>Generally faster</p></td>
+<td><p>Slower due to interpretation</p></td>
+</tr>
+<tr class="row-odd"><td><p>Libraries</p></td>
+<td><p>Extensive standard library, many third-party libraries</p></td>
+<td><p>Extensive standard library, many third-party libraries</p></td>
+</tr>
+<tr class="row-even"><td><p>Use Cases</p></td>
+<td><p>System programming, game development, real-time applications</p></td>
+<td><p>Web development, data analysis, scripting</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="simple">
+<li><p>Regarding the <strong>Typing System</strong>, C++ is statically typed, meaning that variable types are known at compile time. This can lead to better performance and type safety but requires more upfront planning compared to Python’s dynamic typing.</p></li>
+<li><p>C++ is also <strong>compiled</strong>, which means that the code is translated into machine code before execution. This can lead to faster execution times compared to Python, which is interpreted at runtime.</p></li>
+<li><p>C++ has a more <strong>complex syntax</strong> than Python, requiring semicolons to end statements and braces to define code blocks. This can make C++ code more verbose but also allows for more precise control over the code structure.</p></li>
+<li><p>C++ requires <strong>manual memory management</strong>, often using pointers to allocate and deallocate memory. This gives programmers more control over memory usage but also increases the risk of memory leaks and pointer-related errors.</p></li>
+<li><p>C++ generally offers <strong>better performance</strong> than Python due to its compiled nature and lower-level access to system resources. This makes it a preferred choice for applications where speed and efficiency are critical, such as game engines and real-time systems.</p></li>
+<li><p>C++ has an <strong>extensive standard library</strong> that provides many useful functions and data structures, similar to Python’s standard library. Additionally, there are many third-party libraries available for C++ that extend its capabilities.</p></li>
+</ul>
+<p>All of these concepts will be covered in more detail in the following sections of this course. We will start with the basics of C++ syntax, data types, and control structures, and gradually move on to more advanced topics such as object-oriented programming, templates, and the Standard Template Library (STL).</p>
+<section id="hello-world-in-c">
+<h2><span class="section-number">2.1. </span>Hello World in C++<a class="headerlink" href="#hello-world-in-c" title="Link to this heading">#</a></h2>
+<p>Let’s start with a simple “Hello, World!” program in C++. This will give you a feel for the syntax and structure of a C++ program.</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="c1"> // Include the input-output stream library</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"> </span><span class="c1">// Use the standard namespace</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Main function where the program starts</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hello, World!&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// Output &quot;Hello, World!&quot; to the console</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// Return 0 to indicate successful execution</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>In this example:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">#include</span> <span class="pre">&lt;iostream&gt;</span></code> includes the input-output stream library, which allows us to use <code class="docutils literal notranslate"><span class="pre">cout</span></code> for output.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">using</span> <span class="pre">namespace</span> <span class="pre">std;</span></code> allows us to use standard library features without prefixing them with <code class="docutils literal notranslate"><span class="pre">std::</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">int</span> <span class="pre">main()</span></code> defines the main function where the program execution begins.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cout</span> <span class="pre">&lt;&lt;</span> <span class="pre">&quot;Hello,</span> <span class="pre">World!&quot;</span> <span class="pre">&lt;&lt;</span> <span class="pre">endl;</span></code> outputs the string “Hello, World!” to the console, followed by a newline.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">return</span> <span class="pre">0;</span></code> indicates that the program has executed successfully.</p></li>
+</ul>
+<p>This simple program demonstrates the basic structure of a C++ program, including the use of libraries, namespaces, and the main function. As we progress through this course, we will explore more complex features and concepts in C++.</p>
+</section>
+<section id="injection-operator">
+<h2><span class="section-number">2.2. </span>Injection Operator<a class="headerlink" href="#injection-operator" title="Link to this heading">#</a></h2>
+<p>In C++, the injection operator <code class="docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> is used to send output to the standard output stream, typically the console. It is commonly used with <code class="docutils literal notranslate"><span class="pre">cout</span></code>, which is an instance of the output stream class.</p>
+<p>The injection operator can be used to output various types of data, including strings, numbers, and even complex objects, as long as they have an appropriate <code class="docutils literal notranslate"><span class="pre">operator&lt;&lt;</span></code> defined (more on this later in the course…).</p>
+<p>Here’s a simple example of using the injection operator:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">42</span><span class="p">;</span>
+<span class="w">    </span><span class="n">string</span><span class="w"> </span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;The answer is&quot;</span><span class="p">;</span>
+
+<span class="w">    </span><span class="c1">// Using the injection operator to output text and variables</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">text</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">number</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>In this example:</p>
+<ul class="simple">
+<li><p>We include the <code class="docutils literal notranslate"><span class="pre">iostream</span></code> library to use <code class="docutils literal notranslate"><span class="pre">cout</span></code>.</p></li>
+<li><p>We define a string <code class="docutils literal notranslate"><span class="pre">text</span></code> and an integer <code class="docutils literal notranslate"><span class="pre">number</span></code>.</p></li>
+<li><p>We use the injection operator <code class="docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> to output the string and the integer to the console, separated by a space.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">endl</span></code> manipulator is used to insert a newline character and flush the output buffer.</p></li>
+</ul>
+<p>This demonstrates how the injection operator can be used to format output in C++. You can chain multiple <code class="docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> operators to output multiple items in a single line, making it a powerful tool for displaying information in a readable format.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The injection operator <code class="docutils literal notranslate"><span class="pre">&lt;&lt;</span></code> is not to be confused with the bitwise left shift operator in C++. The context in which it is used determines its meaning. In the case of <code class="docutils literal notranslate"><span class="pre">cout</span></code>, it is used for output, while in other contexts, it may perform a bitwise operation.</p>
+</div>
+</section>
+<section id="a-word-about-flush">
+<h2><span class="section-number">2.3. </span>A word about <code class="docutils literal notranslate"><span class="pre">flush</span></code><a class="headerlink" href="#a-word-about-flush" title="Link to this heading">#</a></h2>
+<p>In C++, the <code class="docutils literal notranslate"><span class="pre">flush</span></code> manipulator is used to flush the output buffer of a stream, ensuring that all buffered output is written to the console or file immediately. This can be particularly useful when you want to ensure that output appears in real-time, especially in interactive applications or when debugging.</p>
+<p>Here’s an example of using <code class="docutils literal notranslate"><span class="pre">flush</span></code> with <code class="docutils literal notranslate"><span class="pre">cout</span></code>:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;thread&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;chrono&gt;</span>
+
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Processing...&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">flush</span><span class="p">;</span><span class="w"> </span><span class="c1">// Flush the output buffer</span>
+<span class="w">    </span><span class="c1">// Simulate some processing</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;.&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">flush</span><span class="p">;</span><span class="w"> </span><span class="c1">// Output a dot and flush after each iteration</span>
+<span class="w">        </span><span class="c1">// Simulate a delay (e.g., sleep for 1 second)</span>
+<span class="w">        </span><span class="n">this_thread</span><span class="o">::</span><span class="n">sleep_for</span><span class="p">(</span><span class="n">chrono</span><span class="o">::</span><span class="n">seconds</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Done!&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// Final output</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Without the <code class="docutils literal notranslate"><span class="pre">flush</span></code> manipulator, the output may not appear immediately, especially if the program is running in a buffered environment. By using <code class="docutils literal notranslate"><span class="pre">flush</span></code>, we ensure that “Processing…” is displayed right away, and each dot appears in real-time as the loop iterates.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -435,6 +575,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hello-world-in-c">2.1. Hello World in C++</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#injection-operator">2.2. Injection Operator</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-word-about-flush">2.3. A word about <code class="docutils literal notranslate"><span class="pre">flush</span></code></a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

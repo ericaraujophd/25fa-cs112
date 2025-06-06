@@ -13,10 +13,11 @@ At the end of this unit, students will be able to...
 -   create and use pointers.
 -   use the dereferencing and address-of operators on pointer variables.
 
-## Slides
-
-
 
 ## Readings
 
 Chapters 1, 2, and Sections 5.1, 5.2 of the book [C++ for Python Programmers](https://runestone.academy/runestone/books/published/cpp4python/index.html).
+
+## Resources
+
+[Binary Exposed](https://integer.exposed/#0x0008)
