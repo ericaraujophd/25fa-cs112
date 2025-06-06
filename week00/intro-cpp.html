@@ -455,7 +455,9 @@ document.write(`
 <h2><span class="section-number">2.1. </span>Hello World in C++<a class="headerlink" href="#hello-world-in-c" title="Link to this heading">#</a></h2>
 <p>Let’s start with a simple “Hello, World!” program in C++. This will give you a feel for the syntax and structure of a C++ program.</p>
 <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="c1"> // Include the input-output stream library</span>
+
 <span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"> </span><span class="c1">// Use the standard namespace</span>
+
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Main function where the program starts</span>
 <span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hello, World!&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// Output &quot;Hello, World!&quot; to the console</span>
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// Return 0 to indicate successful execution</span>
@@ -478,7 +480,9 @@ document.write(`
 <p>The injection operator can be used to output various types of data, including strings, numbers, and even complex objects, as long as they have an appropriate <code class="docutils literal notranslate"><span class="pre">operator&lt;&lt;</span></code> defined (more on this later in the course…).</p>
 <p>Here’s a simple example of using the injection operator:</p>
 <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+
 <span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">42</span><span class="p">;</span>
 <span class="w">    </span><span class="n">string</span><span class="w"> </span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;The answer is&quot;</span><span class="p">;</span>
