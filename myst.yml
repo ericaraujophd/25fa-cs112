@@ -2,12 +2,27 @@
 version: 1
 project:
   id: 28458934-ae16-454c-bbd4-fc5609bbcbea
-  # title:
-  # description:
+  title: Start here!
+  subtitle: Introduction to Data Structures
+  description: Fall 2025 Course
   # keywords: []
-  # authors: []
-  # github:
+  authors:
+    - name: Eric Araujo
+      email: eric.araujo@calvin.edu
+      corresponding: true
+    - name: Christopher Wieringa
+      email: chris.wieringa@calvin.edu
+      corresponding: true
+  github: https://github.com/ericaraujophd/25fa-cs112/
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+  - file: intro.md
+  - file: policies/policies.md
+    children:
+    - file: policies/grading.md
+    - file: policies/honesty.md
+    - file: policies/classroom.md
+  - file: content/content.md
 site:
   template: book-theme
   # options:
