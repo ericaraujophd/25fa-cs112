@@ -25,6 +25,8 @@ project:
   - file: content/content.md
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: figures/logo.png
+    logo: figures/logo.png
+    logo_alt: Calvin University
+    logo_text: Data Structures
