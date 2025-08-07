@@ -1,45 +1,31 @@
----
-title: "Lab 02: File I/O, Control Structures, and the Debugger"
-format: 
-  html:
-    css: /labs/lab-styles.css
----
+# Lab 02: File I/O, Control Structures, and the Debugger
 
-<center>
-
-<figure>
-
-<img src="/images/labs/lab02/header.gif" alt="Beware of the bugs!" width="250"/>
-
-<figcaption>Beware of the bugs!</figcaption>
-
-</figure>
-
-</center>
-
-## Objectives:
+## Objectives
 
 In this exercise, you will:
 
-1.  Read in a file and process its contents.
-2.  Practice creating functions
-3.  Practice writing `for` loops and `if` statements.
-4.  Use the debugger to execute a program statement by statement.
+1. Read in a file and process its contents.
+2. Practice creating functions
+3. Practice writing `for` loops and `if` statements.
+4. Use the debugger to execute a program statement by statement.
 
 ## Step 0. Prepare
 
--   Find a partner before starting anything!
--   Click [this link](https://classroom.github.com/a/IMRJTNWa){target="_blank"} and then scroll down to choose a Team name. "Accept this assignment".
--   Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!". The page has a link to a github repo.
--   Click the link to see your new repo on github.com.
--   Click the green [**Code**]{style="color:green"} button and copy the SSH link it shows.
--   In a terminal,
-    -   `cd` to the directory where you are putting all your CS112 assignments.
-    -   type `git clone paste-the-contents-of-the-link-you-copied`
--   `cd` to the new directory containing your repo.
--   type `code .` to start up Visual Studio Code in that directory.
--   Make sure both you and your partner are in the same Team for this assignment. Only one of you will work on the code at a time during the session.
--   Inspect the code you got in the assignment.
+```{warning}
+Find a partner before starting anything!
+```
+
+1. Click [this link]() and then scroll down to choose a Team name. "Accept this assignment".
+   - Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!". The page has a link to a github repo.
+   - Click the link to see your new repo on github.com.
+   - Click the green <span style="color: green;">Code</span> button and copy the SSH link it shows.
+2. In a terminal,
+   - `cd` to the directory where you are putting all your CS112 assignments.
+   - type `git clone paste-the-contents-of-the-link-you-copied`
+3. `cd` to the new directory containing your repo.
+   - type `code .` to start up Visual Studio Code in that directory.
+   - Make sure both you and your partner are in the same Team for this assignment. Only one of you will work on the code at a time during the session.
+   - Inspect the code you got in the assignment.
 
 ## Finding duplicates in an array of integers
 

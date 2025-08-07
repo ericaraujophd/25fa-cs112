@@ -1,0 +1,10 @@
+# Lab 09: Hint
+
+The stub of `isEmpty()` should look like this:
+
+``` cpp
+bool Stack::isEmpty() const {
+}
+```
+
+The `isEmpty()` method should return **true** when `mySize` equals zero, and should return **false** otherwise.

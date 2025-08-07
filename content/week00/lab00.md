@@ -30,7 +30,7 @@ If you have not experience with Unix commands in the terminal, you may want to w
 
 ## Using Linux
 
-I would recommend that you bookmark this [Linux Quick Reference](/materials/LinuxQuickRef.pdf){target="_blank"}, so that you can locate it quickly in the future. Your instructor will conduct a quick introduction to using the Linux command-line. These are useful skills to practice, as they will allow you to login to a remote system (e.g., from home) and work with your files remotely.
+I would recommend that you bookmark this [Linux Quick Reference](/materials/LinuxQuickRef.pdf), so that you can locate it quickly in the future. Your instructor will conduct a quick introduction to using the Linux command-line. These are useful skills to practice, as they will allow you to login to a remote system (e.g., from home) and work with your files remotely.
 
 ## Where to Store your CS112 Work
 

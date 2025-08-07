@@ -21,3 +21,7 @@ At the end of this unit, the student will be able to...
 ```{attention} Lab 06: More List Operations
 🧪 [Instructions](lab06.md)
 ```
+
+```{important} Exam 2
+**Exam 2** Exam on Friday during class. Bring your laptop. Content: Weeks 0 - 5.
+```
