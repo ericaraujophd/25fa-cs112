@@ -343,8 +343,6 @@ Ways students have lost points in the past:
 -   -1: Implementation for `courseNumber()` should be in **utils.cpp**, not the header file **utils.h**.
 -   -1: Good, but please format your code!
 
-::: callout-tip
+```{tip}
 If you have time and you have your laptop with you, this would be a good time to follow the instructions on the CS112 Moodle page to set up your laptop to access the CS lab machines remotely using VS Code Tunnels.
-:::
-
-<!-- [^1]: how to add footnotes. -->
+```
