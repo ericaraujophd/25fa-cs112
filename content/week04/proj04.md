@@ -1,9 +1,4 @@
----
-title: "Project 04: More Vec Operations"
-format: 
-  html:
-    css: /projects/proj-styles.css
----
+# Project 04: More Vec Operations
 
 <center>
 
