@@ -2,6 +2,7 @@
 
 CS112 uses the **C++** programming language to introduce students to the elementary data structures (vectors, lists, stacks, queues, binary search trees, ...), recursion, big-oh notation, and other intermediate-level programming topics.
 
+
 ```{figure} figures/real_programmers.png
 ---
 name: real_programmers
