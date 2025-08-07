@@ -1,0 +1,23 @@
+# Week 06
+
+## SLOs for Week 06: Linked Lists, Dynamic Array or Linked List
+
+At the end of this unit, the student will be able to...
+
+- describe the organization of a linked list — how Nodes are chained together.
+- reason about the time complexity of the typical operations: prepend, append, remove, traverse, searching, indexing, etc.
+- explain how the Node destructor causes a chain reaction to delete all Nodes in the list.
+- write code to walk through the linked list.
+- compare and contrast the strengths and weaknesses of a linked list vs. a dynamic array.
+
+```{note} Resources
+- 📜 [Week 06 Slides — Linked Lists](https://docs.google.com/presentation/d/1Wc-X7kgXs4ho3RbsK2GbkFJFsMbzrY-qg11fnaCbF2c/edit?usp=sharing)
+- 📜 [Week 06 Slides — Dynamic Array or Linked List](https://docs.google.com/presentation/d/1k-yhUpxgpk_N82EW9O794WU_JanF3AIEMAKhs_OCoCs/edit?usp=share_link)
+- 💻 [Code from Class](https://calvincollege-my.sharepoint.com/:f:/g/personal/vtn2_calvin_edu/EjYzT2SidtJFowsOkxH5AvMBLQGjzMvuZDLfwiiTosOLsw?e=zoDST7)
+```
+
+## Assignments
+
+```{attention} Lab 06: More List Operations
+🧪 [Instructions](lab06.md)
+```

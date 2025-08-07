@@ -49,6 +49,9 @@ project:
       children:
       - file: content/week05/lab05.md
       - file: content/week05/proj05.md
+    - file: content/week06/slos.md
+      children:
+      - file: content/week06/lab06.md
 site:
   template: book-theme
   options:
