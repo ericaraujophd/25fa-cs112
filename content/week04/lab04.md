@@ -9,17 +9,6 @@ In this exercise, you will:
 
 <!-- ![A student created by AI](imgs/student-cover.jpeg "A cartoon style image of a computer science student wearing a T-shirt with a binary code pattern") -->
 
-<center>
-
-<figure>
-
-<img src="/images/labs/lab04/airplane.gif" alt="One of the many memorable lines from the 1980 film Airplane!" width="400"/>
-
-<figcaption>One of the many memorable lines from the 1980 film [Airplane](https://www.youtube.com/watch?v=NfDUkR3DOFw){target="_blank"}!</figcaption>
-
-</figure>
-
-</center>
 
 ## Introduction
 

@@ -5,17 +5,6 @@ format:
     css: /projects/proj-styles.css
 ---
 
-<center>
-
-<figure>
-
-<img src="/images/projects/proj05-header.gif" alt="Created by AI Prompt: a C++ array fading away" width="350"/>
-
-<figcaption>Created by AI Prompt: *a C++ array fading away*</figcaption>
-
-</figure>
-
-</center>
 
 ## Project 05: Processing Video Game Data using the Bridges API
 

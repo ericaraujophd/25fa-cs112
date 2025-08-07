@@ -7,17 +7,6 @@ format:
 eval: false
 ---
 
-<center>
-
-<figure>
-
-<img src="/images/projects/proj02-header.png" alt="Falling AI Sand." width="500"/>
-
-<figcaption>Falling AI Sand.</figcaption>
-
-</figure>
-
-</center>
 
 ## Step 0. Prepare
 

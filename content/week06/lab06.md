@@ -5,17 +5,6 @@ format:
     css: /labs/lab-styles.css
 ---
 
-<center>
-
-<figure>
-
-<img src="/images/labs/lab06/lab06-header.gif" alt="Equality" width="400"/>
-
-<figcaption>Equality.</figcaption>
-
-</figure>
-
-</center>
 
 ## Objectives:
 

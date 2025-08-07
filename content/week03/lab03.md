@@ -5,17 +5,6 @@ format:
     css: /labs/lab-styles.css
 ---
 
-<center>
-
-<figure>
-
-<img src="/images/labs/lab03/classy.gif" alt="Classy." width="400"/>
-
-<figcaption>ClassY.</figcaption>
-
-</figure>
-
-</center>
 
 ## Step 0. Prepare
 

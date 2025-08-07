@@ -33,62 +33,29 @@ In this assignment, you will write a short function, `findDuplicate()`, that sea
 
 Think about the algorithm to find a duplicate value in an array. Consider the following array:
 
-```{=html}
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-jlbi{font-family:"Lucida Console", Monaco, monospace !important;font-size:22px;text-align:center;vertical-align:middle}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
 ```
-
-::: tg-wrap
 +----+---+----+---+---+
 | 11 | 7 | 31 | 4 | 7 |
 +----+---+----+---+---+
-:::
+```
 
 How would you write code to detect that 7 is in the array twice? Talk to your partner about your algorithm. I highly recommend you write pseudo-code for your algorithm. If you want to finish the lab in an efficient way, you'll take time to write the algorithm and test it on some inputs, revising it until you get it right.
 
 When you have an algorithm, consider this array:
 
-```{=html}
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-jlbi{font-family:"Lucida Console", Monaco, monospace !important;font-size:22px;text-align:center;vertical-align:middle}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
 ```
-
-::: tg-wrap
 +----+---+---+---+----+
 | 11 | 7 | 7 | 4 | 71 |
 +----+---+---+---+----+
-:::
+```
 
 And this array:
 
-```{=html}
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-jlbi{font-family:"Lucida Console", Monaco, monospace !important;font-size:22px;text-align:center;vertical-align:middle}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
 ```
-
-::: tg-wrap
 +---+----+----+----+----+
 | 7 | 43 | 31 | 12 | 71 |
 +---+----+----+----+----+
-:::
+```
 
 Does your algorithm seem to work on these arrays? Will your algorithm work for arrays with 10,000 values? How about an array with 0 elements or 1 element? Does it work?
 
@@ -98,31 +65,15 @@ In **functions.h**, write the **prototype** for your function. The prototype is 
 
 Your function is called `findDuplicate()`, has 3 parameters, and returns **bool**.
 
-```{=html}
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-gpin{background-color:#C9DAF8;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-```
-
-+----------------+----------------+--------------------------------------------------------------------------+
-| Parameter name | Parameter type | Description                                                              |
-+================+================+==========================================================================+
-| arr            | array of int   | arr of integers to search                                                |
-+----------------+----------------+--------------------------------------------------------------------------+
-| size           | int            | size of the array                                                        |
-+----------------+----------------+--------------------------------------------------------------------------+
+| Parameter name | Parameter type | Description |
+| -------------- | -------------- | ------------------------------------ |
+| arr            | array of int   | arr of integers to search            |
+| size           | int            | size of the array                    |
 | dup_value      | int &          | The out parameter containing the first duplicate value, if one is found. |
-+----------------+----------------+--------------------------------------------------------------------------+
 
 The function's prototype should look like this:
 
-``` cpp
+```cpp
 bool findDuplicate(int arr[], int size, int &dup_value);
 ```
 
@@ -142,29 +93,36 @@ Try compiling your code by typing `make tester`. If it builds, try running `./te
 
 To run only the first test, you can do:
 
-``` bash
+```bash
 ./tester "findDuplicate size 0"
 ```
 
+```{warning}
 If your code does not pass this test, try fixing it. Take 5 minutes maximum to try to fix your code. Whether you succeed or not, go on.
+```
 
 ## Step 3. Using the Debugger
 
 A debugger is a program that allows you to set breakpoints in your code, and then run your code. When a breakpoint is encountered, the debugger stops, and allows you to view variables' values, the call stack, etc.
 
-[This video](https://youtu.be/vfPY7qFnDZI) shows you how to use the debugger with VS Code. You probably won't be able to watch this video on a lab machine, but if you have a laptop and/or phone and have earbuds or headphones, you should watch the video. Then, go down to [Step 3.5](#step35) below.
+[This video](https://youtu.be/vfPY7qFnDZI) shows you how to use the debugger with VS Code. You probably won't be able to watch this video on a lab machine, but if you have a laptop and/or phone and have earbuds or headphones, you should watch the video. Then, go down to **Step 3.5** below.
 
 If you cannot watch the video, I'll describe how to use the debugger here:
 
 Open your file that you want to debug. E.g., your **functions.cpp** file. Here is mine:
 
-![](/images/labs/lab02/img1.png)
+```{figure} imgs/img1.png
+---
+name: img1
+---
+functions.cpp
+```
 
 You can see that I have a good start on the function, but it isn't complete. But, I want to make sure I'm passing in my parameters correctly, and a good way to do that is to use the debugger.
 
 **The first thing I have to do** is build the project:
 
-``` bash
+```bash
 make tester
 ```
 
@@ -172,7 +130,12 @@ If you look at **tests.cpp**, you can see a bunch of calls to `findDuplicate()`,
 
 To check if our parameters are being passed in correctly, **let's set a breakpoint** on line 2. To do that, put your pointer to the left of the 2 on line 2, and click. You should see a red dot.
 
-![](/images/labs/lab02/img2.png)
+```{figure} imgs/img2.png
+---
+name: img2
+---
+Set a breakpoint on line 2
+```
 
 You can set multiple breakpoints at the same time. You could, for example, set a breakpoint on line 3 and line 5, so that you can see in what circumstances your code returns **true** or **false**.
 
@@ -184,25 +147,45 @@ When you start debugging (successfully), your screen changes quite a bit.
 
 You'll see a menu bar appear at the top of the screen. You'll also see the debugging icon on the left side become bright:
 
-![](/images/labs/lab02/img3.png)
+```{figure} imgs/img3.png
+---
+name: img3
+---
+Debugging icon
+```
 
 You'll see a debugging window on the left side. And, you'll see your code run and the debugger will stop at the first breakpoint:
 
-![](/images/labs/lab02/img4.png)
+```{figure} imgs/img4.png
+---
+name: img4
+---
+Debugger has stopped at the breakpoint
+```
 
-::: callout-caution
-**If you saw an error when you started debugging, you might be trying to debug the wrong executable. Look at the image just above. Notice that next to the green arrow is a small menu, with a dropdown arrow. You might be trying to debug the "lab2" program instead of the tester program. If you don't see "tester", click on the dropdown arrow and choose "Launch tester", then click the green right-arrow and try again.**
-:::
+```{caution}
+If you saw an error when you started debugging, you might be trying to debug the wrong executable. Look at the image just above. Notice that next to the green arrow is a small menu, with a dropdown arrow. You might be trying to debug the "lab2" program instead of the tester program. If you don't see "tester", click on the dropdown arrow and choose "Launch tester", then click the green right-arrow and try again.
+```
 
 You know where your code has stopped because you see the yellow "arrow" overlaying the red dot. This means your code has run to this point and is stopped.
 
 On the lower-left corner you see the call stack. The top frame in the call stack is `findDuplicate()`. Below that you see that `findDuplicate()` was called from **C_A_T_C_H_T_E_S_T_0()** in **tests.cpp** at line 10. Click on that to see **tests.cpp** and where it called `findDuplicate()`.
 
-![](/images/labs/lab02/img5.gif)
+```{figure} imgs/img5.gif
+---
+name: img5
+---
+Click on C_A_T_C_H_T_E_S_T_0() to see where findDuplicate() was called from.
+```
 
 Now, to continue from the breakpoint, we can use the menu bar at the top. If you hover your mouse over the items in the menu bar, you'll see: Continue (F5), Step Over (F10), Step Into (F11), Step Out (Shift F11), and Stop (Shift-F5). Step Over really means "go to the next line".
 
-![](/images/labs/lab02/img6.gif)
+```{figure} imgs/img6.gif
+---
+name: img6
+---
+Use the menu bar to control execution of your code.
+```
 
 Click on **Step Over** now. You should see your pointer go to line 3, which returns **false**. Step Over a few more times, and you'll get back to **tests.cpp**, line 11. Now, click **Continue**. That will make the debugger run the code again until it encounters the next breakpoint -- which is back at line 2 of **functions.cpp**. You can again inspect the parameter values.
 
@@ -212,19 +195,19 @@ Click on **C_A_T_C_H_T_E_S_T_6()** on the lower-left corner of the screen, and l
 
 This really concludes our introduction to using the debugger.
 
-## <a name="step35"></a> Step 3.5 Caveats
+## Step 3.5 Caveats
 
 📌 **Please note these caveats:**
 
--   If you make changes to your code, you have to recompile before using the debugger again. Starting or restarting the debugger will not first recompile your code! (To recompile, use make tester .)
--   Running the debugger on MacOS (gdb) has problems. I've never gotten it to work on my Mac. Prof. Araújo has been working on that and is comming up with a solution "soon".
--   I haven't tested running the debugger on Windows. If you want to try that, you will probably have to change the .vscode/launch.json file. When you open that file in VSCode, you get a menu that allows you to insert new configurations -- so it might be super easy to get this working -- or not easy at all. 🙂
+- If you make changes to your code, you have to recompile before using the debugger again. Starting or restarting the debugger will not first recompile your code! (To recompile, use make tester .)
+- Running the debugger on MacOS (gdb) has problems. I've never gotten it to work on my Mac. Prof. Araújo has been working on that and is comming up with a solution "soon".
+- I haven't tested running the debugger on Windows. If you want to try that, you will probably have to change the .vscode/launch.json file. When you open that file in VSCode, you get a menu that allows you to insert new configurations -- so it might be super easy to get this working -- or not easy at all. 🙂
 
 ## Step 4. Get your code working against all tests
 
 Using the debugger and your brain 🧠, fix your code such that it passes all the tests when you run
 
-``` bash
+```bash
 ./tester
 ```
 
@@ -236,7 +219,7 @@ Look in **main.cpp**, where you will find the steps to implement, as comments.
 
 Compile your code with
 
-``` bash
+```bash
 make lab2
 ```
 
@@ -246,7 +229,7 @@ I **HIGHLY RECOMMEND YOU IMPLEMENT** your code in small iterations: just write t
 
 Step 7. says to "print appropriate output". This means your application should either print out that there are no duplicates, or should print out that a duplicate was found, and should print what that duplicate value is. E.g., here are a few runs of my solution:
 
-``` bash
+```bash
 % ./lab2
 Enter a filename: input_files/in0.txt
 Enter the number of lines in the file: 0
@@ -255,16 +238,16 @@ No duplicate number was found.
 
 and another run:
 
-``` bash
+```bash
 % ./lab2
 Enter a filename: input_files/in5.txt
 Enter the number of lines in the file: 5
 A duplicate number, 91, has been found.
 ```
 
-::: callout-note
+```{note}
 Your output must match the output above EXACTLY. You should try your solution against all the files in the `input_files/` directory. These files will be used in the autograding tests run when you submit.
-:::
+```
 
 ## Submit
 

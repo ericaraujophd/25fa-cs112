@@ -15,17 +15,7 @@ format:
 
 This week's project is to complete a program that simulates a Conga Line dance:
 
-<center>
 
-<figure>
-
-<img src="/images/projects/proj08-header.gif" alt="Conga!" width="450"/>
-
-<figcaption>Conga!</figcaption>
-
-</figure>
-
-</center>
 
 ## Simulation Trace
 

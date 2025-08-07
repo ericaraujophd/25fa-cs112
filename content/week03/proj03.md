@@ -5,17 +5,6 @@ format:
     css: /projects/proj-styles.css
 ---
 
-<center>
-
-<figure>
-
-<img src="/images/projects/proj03-header.gif" alt="Scene from Never Have I Ever" width="450"/>
-
-<figcaption>Scene from Never Have I Ever</figcaption>
-
-</figure>
-
-</center>
 
 ## Introduction
 

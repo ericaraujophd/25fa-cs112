@@ -12,18 +12,6 @@ In this exercise, you will:
 1.  Learn about generic containers.
 2.  Convert a container class into a class template.
 
-<center>
-
-<figure>
-
-<img src="/images/labs/lab05/lab05-header.gif" alt="Templates!" width="400"/>
-
-<figcaption>Templates! Templates!</figcaption>
-
-</figure>
-
-</center>
-
 ## Set up
 
 -   Click [this link](https://classroom.github.com/a/A9e4F6bm){target="_blank"} and then "Accept this assignment".

@@ -1,17 +1,5 @@
 # Project 04: More Vec Operations
 
-<center>
-
-<figure>
-
-<img src="/images/projects/proj04-header.jpeg" alt="Created by AI Prompt: a C++ array fading away" width="350"/>
-
-<figcaption>Created by AI Prompt: *a C++ array fading away*</figcaption>
-
-</figure>
-
-</center>
-
 ## Project 4: More Vec Operations
 
 ## Objectives
