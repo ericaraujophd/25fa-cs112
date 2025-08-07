@@ -1,27 +1,21 @@
----
-title: "Lab 06: More List Operations"
-format:
-  html:
-    css: /labs/lab-styles.css
----
+# Lab 06: More List Operations
 
-
-## Objectives:
+## Objectives
 
 In this exercise, you will:
 
-1.  Build more List operations.
-2.  Practice using pointers.
+1. Build more List operations.
+2. Practice using pointers.
 
 ## Introduction
 
 In this week's lab you will add more functionality to the List class we built in class.
 
-[Here is the invite](https://classroom.github.com/a/R-5cjIhW){target="_blank"}.
+[Here is the invite]().
 
 Use git clone to get your copy of the assignment, as we have been doing. You should have these files: **List.cpp**, **List.h**, **tests.cpp**, plus a **makefile**, etc.
 
-If you are working with a partner, make sure you join the same Team when creating your repos. Also, put both your names in the README.md file now.
+If you are working with a partner, make sure you join the same Team when creating your repos. Also, put both your names in the *README.md* file now.
 
 ## Step 1. Append
 
@@ -33,13 +27,13 @@ Now, implement the code for `append()`. You might find looking at the implementa
 
 Let's implement a method that searches the linked list for a given `Item`, and returns the index of where the item is found, or -1 if it is not found. Name the method `getIndexOf()`. Here is the prototype:
 
-``` cpp
+```cpp
 int getIndexOf(const Item &it) const;
 ```
 
 First implement tests of `getIndexOf()` in **tests.cpp**, and then implement the method. You must call the `TEST_CASE` "lookfor". I.e., put this in the **tests.cpp** file:
 
-``` cpp
+```cpp
 TEST_CASE("lookfor") {
      // add your tests here -- either inside SECTION()s or not.
 }
@@ -51,7 +45,7 @@ You knew it was coming...
 
 **tests.cpp** does not contain any test cases for this, so you'll have to implement them yourself. My solution has 1 `TEST_CASE` with 3 `SECTIONS`: copying a 0-element List, copying a 1-element List, and copying a $>1$-element list. The name of the TEST_CASE must be "copy":
 
-``` cpp
+```cpp
 TEST_CASE("copy") {
      // add your tests here -- either inside SECTION()s or not.
 }
@@ -59,14 +53,14 @@ TEST_CASE("copy") {
 
 The prototype of the copy constructor will be:
 
-``` cpp
+```cpp
 List(const List & original);
 ```
 
 Here is the algorithm to implement the copy constructor:
 
--   Set all the instance variables (`myFirst`, `myLast`, `mySize`) to default values.
--   Walk the list of nodes in original, calling `append()` on the value in each node. (You are calling `append()` on "this" node, thus adding a new node each time to the `List` being constructed.)
+- Set all the instance variables (`myFirst`, `myLast`, `mySize`) to default values.
+- Walk the list of nodes in original, calling `append()` on the value in each node. (You are calling `append()` on "this" node, thus adding a new node each time to the `List` being constructed.)
 
 ## Step 4. Equality
 
@@ -78,21 +72,21 @@ if `list1` contains 3 values: 11, 22, 33 and `list2` contains four values: 11, 2
 
 To test this you have to use `==` (not `!=`), so your test might look like this:
 
-``` cpp
+```cpp
 REQUIRE(! (list1 == list2) );
 ```
 
 Create your tests first in a test case called "equality":
 
-``` cpp
+```cpp
 TEST_CASE("equality") {
      // add your tests here -- either inside SECTION()s or not.
 }
 ```
 
-::: callout-tip
+```{tip}
 Use a "curr" pointer to each list's `myFirst` node, then in a loop, check if the items are the same for the two nodes, then move each `curr` pointer to its next node.
-:::
+```
 
 ## Step 5. Templatize
 
@@ -108,23 +102,21 @@ Verify you have synced your code to github by going to your online repo webpage 
 
 Verify that the autograding tests have passed in github.com.
 
-## Grading Rubric:
+## Grading Rubric
 
 You will be graded this way: 19 pts total
 
--   4 pts each for `append()`, `getIndexOf()`, copy constructor, and equality operator (16 pts)
--   3 pts for correctness,
--   1 pt for thorough tests (you get this point free for `append()` for which I've provided tests).
--   3 pts for correctly converting to a class template.
+- 4 pts each for `append()`, `getIndexOf()`, copy constructor, and equality operator (16 pts)
+- 3 pts for correctness,
+- 1 pt for thorough tests (you get this point free for `append()` for which I've provided tests).
+- 3 pts for correctly converting to a class template.
 
 Ways students lost points in the past:
 
--   -3: Incorrect class template conversion, code does not compile;
--   -3: Missing tests for `getIndexOf()`, copy constructor, and equality operator
--   -1: Incomplete equality tests, no tests for when equality is true
--   -1: Append implementation needs to adjust the `myNext` of the current last element
--   -1: Copy constructor: `myFirst` is not initialized to **nullptr**, causing tests to fail;
--   -1: Missing test for equality operator;
--   -1: Incomplete test for copy constructor;
-
-<!-- [^1]: how to add footnotes. -->
+- -3: Incorrect class template conversion, code does not compile;
+- -3: Missing tests for `getIndexOf()`, copy constructor, and equality operator
+- -1: Incomplete equality tests, no tests for when equality is true
+- -1: Append implementation needs to adjust the `myNext` of the current last element
+- -1: Copy constructor: `myFirst` is not initialized to **nullptr**, causing tests to fail;
+- -1: Missing test for equality operator;
+- -1: Incomplete test for copy constructor;
