@@ -17,7 +17,7 @@ In this exercise, you will:
 -   Click [this link](https://classroom.github.com/a/A9e4F6bm){target="_blank"} and then "Accept this assignment".
 -   Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!". The page has a link to a github repo.
 -   Click the link to see your new repo on github.com.
--   Click the green [**Code**]{style="color:green"} button and copy the SSH link it shows.
+-   Click the green <span style="color: green;">Code</span> button and copy the SSH link it shows.
 -   In a terminal,
     -   `cd` to the directory where you are putting all your CS112 assignments.
     -   type `git clone paste-the-contents-of-the-link-you-copied`

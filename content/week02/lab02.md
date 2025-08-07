@@ -261,17 +261,17 @@ Also, check to see that the automated tests pass.
 
 Your submission will be graded this way: 18 pts total
 
--   10 pts for a correct function implementation
--   7 pts for correct code in main().\
--   1 pts for style: good variable names, perfect indentation, etc.
+- 10 pts for a correct function implementation
+- 7 pts for correct code in main().\
+- 1 pts for style: good variable names, perfect indentation, etc.
 
 Ways students have lost points in the past:
 
--   -1: For loop in main.cpp has no body (or no semicolon, either way the code did not compile).
--   -1: No assert statement for when the file is not opened; missing body or semicolon causes the "numbers" variable not to be recognized by the compiler.
--   -10% (-1.8) for 1 day late.
--   -1: Improper indentation in main.cpp.
--   -1: Poor formatting.
--   -1: Array not dynamically allocated with "new" (Step 4).
+- -1: For loop in main.cpp has no body (or no semicolon, either way the code did not compile).
+- -1: No assert statement for when the file is not opened; missing body or semicolon causes the "numbers" variable not to be recognized by the compiler.
+- -10% (-1.8) for 1 day late.
+- -1: Improper indentation in main.cpp.
+- -1: Poor formatting.
+- -1: Array not dynamically allocated with "new" (Step 4).
 
 <!-- [^1]: how to add footnotes. -->
