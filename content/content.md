@@ -1,14 +1,4 @@
-# Course Content
-
-CS112 is organized by week, with each week structured as follows:
-
-- Classroom sessions are Monday-Wednesday-Friday. 
-  - **Section A** meets at 12:15 pm, and **Section B** meets at 1:30 pm at **SB382**.
-  - Prof. Araújo lectures' codes are [available in here]()
-- The lab sessions are on Tuesdays.
-- Your lab submission is due Thursday at 23:59.
-- Your project submission is due the next Monday at 23:59 (the night before your next lab).
-- Tutoring Assistants are available in SB337 on Mondays and Thursdays, from 7 - 9 pm.
+# Course Overview
 
 The SLOs (Student Learning Objectives), labs, and projects for each week are given in the links below. The readings are from [C++ for Python Programmers Book](https://runestone.academy/runestone/books/published/cpp4python/index.html).
 

@@ -22,7 +22,12 @@ project:
     - file: policies/grading.md
     - file: policies/honesty.md
     - file: policies/classroom.md
-  - file: content/content.md
+  - file: content/organization.md
+  - file: content/course-schedule.md
+    children:
+    - file: content/week00/slos.md
+      children:
+      - file: content/week00/lab00.md
 site:
   template: book-theme
   options:
