@@ -29,6 +29,22 @@ project:
       children:
       - file: content/week00/lab00.md
       - file: content/week00/proj00.md
+    - file: content/week01/slos.md
+      children:
+      - file: content/week01/lab01.md
+      - file: content/week01/proj01.md
+    - file: content/week02/slos.md
+      children:
+      - file: content/week02/lab02.md
+      - file: content/week02/proj02.md
+    - file: content/week03/slos.md
+      children:
+      - file: content/week03/lab03.md
+      - file: content/week03/proj03.md
+    - file: content/week04/slos.md
+      children:
+      - file: content/week04/lab04.md
+      - file: content/week04/proj04.md
 site:
   template: book-theme
   options:

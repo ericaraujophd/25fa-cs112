@@ -2,9 +2,9 @@
 authors: null
 ---
 
-# Week 0: Introduction to C++
+# Week 00
 
-## Student Learning Objectives (SLOs)
+## Student Learning Objectives (SLOs) for Week 00: Introduction to C++
 
 At the end of this unit, students will be able to...
 
@@ -19,14 +19,13 @@ At the end of this unit, students will be able to...
 - create and use pointers.
 - use the dereferencing and address-of operators on pointer variables.
 
-[Slides](https://docs.google.com/presentation/u/1/d/1P8PvEMAZsOK85w_vDgjgc9MTG5jADufl6RvGtUXpMLM/edit){target="_blank"}
-
 ```{important} Readings
 Chapters 1, 2, and Sections 5.1, 5.2 of the book [C++ for Python Programmers](https://runestone.academy/runestone/books/published/cpp4python/index.html).
 ```
 
 ```{note} Resources
-[Binary Exposed](https://integer.exposed/#0x0008)
+- 📜 [Slides](https://docs.google.com/presentation/u/1/d/1P8PvEMAZsOK85w_vDgjgc9MTG5jADufl6RvGtUXpMLM/edit)
+- #️⃣ [Binary Exposed](https://integer.exposed/#0x0008)
 ```
 
 ## Assignments
