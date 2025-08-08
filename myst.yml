@@ -82,6 +82,10 @@ project:
     - file: content/week11/slos.md
       children:
       - file: content/week11/lab11.md
+      - file: content/week11/lab11-hint.md
+        hidden: true
+      - file: content/week11/lab11-hint2.md
+        hidden: true
       - file: content/week11/proj11.md
     - file: content/week12/slos.md
     - file: content/week13/slos.md
