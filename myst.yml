@@ -60,6 +60,7 @@ project:
     - file: content/week09/slos.md
       children:
       - file: content/week09/lab09.md
+      - file: content/week09/proj09.md
       - file: content/week09/lab09-hint.md
         hidden: true
       - file: content/week09/lab09-hint-isfull.md
@@ -74,7 +75,6 @@ project:
         hidden: true
       - file: content/week09/lab09-hint-pop2.md
         hidden: true
-      - file: content/week09/proj09.md
     - file: content/week10/slos.md
       children:
       - file: content/week10/lab10.md
