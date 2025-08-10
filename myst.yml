@@ -24,7 +24,6 @@ project:
     - file: policies/classroom.md
   - file: content/organization.md
   - title: Course Content
-  # - file: content/course-schedule.md
     children:
     - file: content/week00/slos.md
       children:
