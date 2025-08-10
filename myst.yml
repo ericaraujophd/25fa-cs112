@@ -23,7 +23,8 @@ project:
     - file: policies/honesty.md
     - file: policies/classroom.md
   - file: content/organization.md
-  - file: content/course-schedule.md
+  - title: Course Content
+  # - file: content/course-schedule.md
     children:
     - file: content/week00/slos.md
       children:
