@@ -18,7 +18,7 @@ In this exercise, you will:
 
 ## Introduction
 
-**Welcome to CS112!** In this first lab exercise, we will introduce the Visual Studio Code editor, and see how we can use it to write a C++ program. The exercise assumes that a C++ compiler (e.g., GNU's gcc/g++), the make utility, and VSCode have all been installed on your system. 
+**Welcome to CS112!** In this first lab exercise, we will introduce the Visual Studio Code editor, and see how we can use it to write a C++ program. The exercise assumes that a C++ compiler (e.g., GNU's gcc/g++), the make utility, and VSCode have all been installed on your system.
 
 You should also be familiar with basic C++ principles. For that, review [1.4. Let’s look at a C++ program](https://runestone.academy/ns/books/published/cpp4python/IntroCpp/firstcppprogram.html#compilation) if you are coming into this class from CS10X and are used to Python.
 
@@ -111,7 +111,7 @@ Each lab and homework will contain a link to a **GitHub Classroom** assignment i
 When you click on the link, a repository for you will be created. The webpage will give you instructions on how to see that repository. The webpage for your repo will look something like this: **https://github.com/24SP-CS112/lab00-yourgithubteam**
 
 :::{.callout-important}
-Click on the [invitation for this lab.](https://classroom.github.com/a/AloYXnvi){target="_blank"}
+Click on the [invitation for this lab.](https://classroom.github.com/a/BgC81DgP)
 :::
 
 <!-- ::: callout-important
@@ -243,7 +243,7 @@ This is telling the terminal shell to run the lab0 executable that is in this di
 
 Change main, so that it now prints out
 
-```         
+```default
 Welcome to CS112 and C++, your name here!
 ```
 
@@ -317,7 +317,7 @@ Click on [**Details**]{style="color:blue"} to see information about what automat
 
 If your code is not passing, make sure the output exactly matches those tests, including spaces -- there is a space after `"C++, "`. Also make sure the autograder can receive an input command to enter your name. In the autograding test, the name **Amunzle** is given as input to the program, so the test expects this as output:
 
-```         
+```default
 Welcome to CS112 and C++, Amunzle!
 ```
 
