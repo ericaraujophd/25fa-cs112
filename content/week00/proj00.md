@@ -14,7 +14,7 @@ XKCD Comic #99 - Binary Heart ([source: xkcd.com/99/](https://xkcd.com/99/))
 
 ## Step 1. Setup
 
-1. Click on this assignment invitation and then ["Accept this assignment"]().
+1. Click on this assignment invitation and then ["Accept this assignment"](https://classroom.github.com/a/K17ETY7L).
    - Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!".
    - Click the link to see your new repo on github.com.
    - Click the green <span style="color: green;">Code</span> button, then SSH, and copy the link it shows.
