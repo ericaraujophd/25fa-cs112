@@ -80,7 +80,7 @@ The VSCode window should pop up pretty quickly. (If you see something about a pa
 
 GitHub is a web service where all your code for this course will be stored. Graders will be able to go to your code and see it and grade it. Additionally, you'll be able to access your code from any machine -- the lab machines or your personal machine -- as long as you submit your code to your repository.
 
-If you do not already have a GitHub account, you should go to [https://github.com](https://github.com){target="_blank"} and create a new account. I would prefer it if you would use your Calvin email address here. After getting a verification code via email and verifying your account, the website asks you what kind of features you will be using. At the bottom of this page it says "Skip Personalization". Just click that to skip all the personalization stuff. You will likely need to set up two factor authentication - 2FA - as part of this process. If you have good texting capabilities in the CS computer labs, you can use the SMS text option for 2FA authentication.
+If you do not already have a GitHub account, you should go to [https://github.com](https://github.com) and create a new account. I would prefer it if you would use your Calvin email address here. After getting a verification code via email and verifying your account, the website asks you what kind of features you will be using. At the bottom of this page it says "Skip Personalization". Just click that to skip all the personalization stuff. You will likely need to set up two factor authentication - 2FA - as part of this process. If you have good texting capabilities in the CS computer labs, you can use the SMS text option for 2FA authentication.
 
 Keep your github.com web page open in the browser for the next step.
 
@@ -96,7 +96,7 @@ The manual process is below, but it can be skipped as we’ll use an automated t
 
 You will need to copy the bottom of the output you see into github. To copy that output, select it with your mouse, and either do **Ctrl+Shift+c** or choose **Edit -\> Copy** from the menu. Do that now.
 
-Now, go to your github.com account in the browser. You will need to go to this page [https://github.com/settings/keys](https://github.com/settings/keys){target="_blank"} while in your account. (Try clicking on the link, but if that does not work, do the following: in your github.com account page, find the image in the upper-right corner of the page, click on it, then choose *Settings* from the dropdown menu, then choose *SSH and GPG Keys* on the left menu, and click that.)
+Now, go to your github.com account in the browser. You will need to go to this page [https://github.com/settings/keys](https://github.com/settings/keys) while in your account. (Try clicking on the link, but if that does not work, do the following: in your github.com account page, find the image in the upper-right corner of the page, click on it, then choose *Settings* from the dropdown menu, then choose *SSH and GPG Keys* on the left menu, and click that.)
 
 Click the **New SSH Key** button in the upper right. Choose a Title: CS112 works well. Then paste the key you copied earlier into the Key textbox. Click the **Add SSH Key** button.
 
