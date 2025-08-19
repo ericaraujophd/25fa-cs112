@@ -135,8 +135,8 @@ Click on the [invitation for this lab.](https://classroom.github.com/a/BgC81DgP)
 All labs are meant to be done in pairs using pair programming. That is: you **must** find a pair before accepting the invitation. For the labs, **and only for the labs**, the invitation will require you create or join a Team. The first to accept the invitation should create a Team name, so your partner can join in afterwards.
 ::: -->
 
-::: callout-important
-All labs are meant to be done in pairs using pair programming ***but this one***! That is: you **must** configure your VS Code and Github individually in order to work in the other assignments.
+:::{.callout-important}
+All labs are meant to be done in pairs using pair programming but this one! That is: you **must** configure your VS Code and Github individually in order to work in the other assignments.
 :::
 
 Go to the webpage for your repository. You will need to get the ID of the repo. To get this, you click on the button **\<\> Code**, then click on the SSH tab. Then click on the two boxes to the right of where it says `git@github.com:...`. This copies your repo id to your clipboard.
@@ -385,5 +385,5 @@ Ways students have lost points in the past:
 -   -1: Good, but please format your code!
 
 ```{tip}
-If you have time and you have your laptop with you, this would be a good time to follow the instructions on the CS112 Moodle page to set up your laptop to access the CS lab machines remotely using VS Code Tunnels.
+If you ever need to use a public computer to do some last-minute coding, you can use VS Code Web via Coder to do make last minute changes! It is not recommended for day-to-day use, as the VS Code Desktop is MUCH more robust and feature filled.
 ```
