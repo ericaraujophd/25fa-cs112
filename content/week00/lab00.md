@@ -12,29 +12,42 @@ LOtR warm up.
 
 In this exercise, you will:
 
-- Login to coder in order to use the Unix Lab.
+- Login to coder in order to use Linux resources.
 - Use Linux commands to interact with files and folders.
 - Use VS Code to edit, compile, and run a program.
 
 ## Introduction
 
-**Welcome to CS112!** In this first lab exercise, we will introduce the Visual Studio Code editor, and see how we can use it to write a C++ program. The exercise assumes that a C++ compiler (e.g., GNU's gcc/g++), the make utility, and VSCode have all been installed on your system.
+**Welcome to CS112!** In this first lab exercise, we will introduce the Visual Studio Code editor, and see how we can use it to write a C++ program. The exercise assumes access to a C++ compiler (e.g., GNU's gcc/g++), the make utility through the Coder system, and that [VS Code](https://code.visualstudio.com/Download) have all been installed on your system.
 
 You should also be familiar with basic C++ principles. For that, review [1.4. Let’s look at a C++ program](https://runestone.academy/ns/books/published/cpp4python/IntroCpp/firstcppprogram.html#compilation) if you are coming into this class from CS10X and are used to Python.
 
-This lab tells you how to use VS Code in the Coder system of the CS Department. It will be required to use the terminal for a Unix environment. 
+This lab tells you how to use VS Code in the Coder system of the CS Department. It will be required to use the terminal for a Linux environment. 
 
 ```{warning}
-If you have not experience with Unix commands in the terminal, you may want to work through this [Introductory Exercise](http://cs.calvin.edu/activities/books/java/intro/1e/HandsOnJava/labs/environments/unix/unix_os.html).
+If you have not experience with Linux commands in the terminal, you may want to work through this [Introductory Exercise](http://cs.calvin.edu/activities/books/java/intro/1e/HandsOnJava/labs/environments/Linux/Linux_os.html).
 ```
 
 ## Using Linux
 
 I would recommend that you bookmark this [Linux Quick Reference](/materials/LinuxQuickRef.pdf), so that you can locate it quickly in the future. Your instructor will conduct a quick introduction to using the Linux command-line. These are useful skills to practice, as they will allow you to login to a remote system (e.g., from home) and work with your files remotely.
 
+## Coder
+
+The Calvin Computer Science department offers the [Coder](https://coder.cs.calvin.edu) service for this and other CS classes. Please take a moment to log into Coder using your web browser. Sign in using your full Calvin email address. When you log in, you will need to make your workspace for CS112.
+
+Do this:
+
+1. Open the URL [https://coder.cs.calvin.edu](https://coder.cs.calvin.edu)
+2. New workspace -> Calvin CS Linux
+3. Complete the form, using the name of "cs112". Leave the rest of the options the default, and click "Create workspace".
+4. After a few seconds, your workspace should start. Please leave this browser window open for future steps.
+
 ## Where to Store your CS112 Work
 
-You will have many assignments in CS112, and it is useful to put them all under one directory ("folder"). I recommend you create a directory called **cs112**, in your home directory. You can do this from the Terminal Window you opened before. Just type this:
+You will have many assignments in CS112, and it is useful to put them all under one directory ("folder"). I recommend you create a directory called **cs112**, in your home directory. 
+
+From your Coder webpage, click the Terminal Window. Then type this:
 
 ``` bash
 mkdir cs112
@@ -52,29 +65,31 @@ To verify what is your current directory, do this:
 pwd
 ```
 
-You should remember to do this before starting each lab and assignment.
+You should be in the /home/<username>/cs112 directory, where <username> is your own Calvin username.
+
+For this course, we will store all our code in the cs112 directory, and it will be up to you to make a clone in your sample labs and project directories for each lab and assignment.
 
 ![](imgs/lab00-mkdir.gif)
 
-## Launching VS Code
+At this point, you can close the Terminal window.
 
-There are different ways to launch VS Code, but for now, just do this:
+## Installing and Launching VS Code
 
-Open a terminal window; and
+As mentioned earlier, we will use Visual Studio Code, more commonly known as [VS Code](https://code.visualstudio.com/Download), as our integrated development environment (IDE) for this class. You will need to install [VS Code](https://code.visualstudio.com/Download) on your own machine. 
 
-If you haven’t already (e.i., your terminal prompt doesn’t have a \~/cs112 in it),
+1. Visit [https://code.visualstudio.com](https://code.visualstudio.com/Download) and download and install the software on your machine. This step will vary based off of what type of laptop you have. Your instructer or lab assistant may be able to assist here, but please try to do this yourself first.
+2. Open VS Code on your own machine.
 
-``` bash
-cd cs112
-```
+While we will be running the VS Code IDE on our own devices, to develop our C++ code with will connect remotely to the Calvin Linux resources offered by Coder.
 
-Enter the following command:
+3. Change the Coder webpage you had open earlier. Find the "VS Code Desktop" button and click it. Open the link!
+4. When prompted to install the "Coder" extension into VS Code, accept the prompt. This adds the offical Code extension into your local VS Code software and allows a remote encrypted connection into your Calvin CS Linux resources - including the C++ compilers we need for this class.
+5. VS Code will attempt to connect to your Coder workspace. You will be prompted to select the platform for the remote host, so choose "Linux".
+6. Once connected, you will have an option to "Open Folder". Browse to or type the following: /home/<username>/cs112 where <username> is your username. Example: /home/jcalvin/cs112/lab00. Click OK.
+7. If prompted to trust the authors of the files in this folder, select "Yes, I trust the authors". After all - the author is going to be you!
+8. Lastly, within VS Code, go to the Terminal menu and select "New Terminal". You should see a Terminal window appear at the bottom of your screen - identical to function as the Terminal we used on the Coder website before!
 
-``` bash
-code . 
-```
-
-The VSCode window should pop up pretty quickly. (If you see something about a password not matching your keychain, just cancel it a few times. We’ll work on fixing that in the future.)
+At this point, you are ready to get our initial code and start coding. Continue on.
 
 ## Create your GitHub Account
 
@@ -84,7 +99,7 @@ If you do not already have a GitHub account, you should go to [https://github.co
 
 Keep your github.com web page open in the browser for the next step.
 
-## Creating SSH Key Pair
+<!-- ## Creating SSH Key Pair
 
 Github security now requires that you use an SSH Key Pair. An SSH key pair is two numbers -- a public key and a private key -- stored in two files. The public key can be shared publicly, but the private key should not be shared.
 
@@ -104,6 +119,8 @@ Click the **New SSH Key** button in the upper right. Choose a Title: CS112 works
 If you plan to work on your own machine instead of a lab machine, you will have to repeat this step on your own laptop. But, the script at `/usr/local/scripts/gen-sshkey-github.sh` will not work on your machine. Use `ssh-keygen` instead. It is available on most operating systems already.
 :::
 
+--> 
+
 ## Creating a Project
 
 Each lab and homework will contain a link to a **GitHub Classroom** assignment invitation. The lab or homework will give you instructions on how to accept the invitation and then download the code for that assignment.
@@ -119,7 +136,7 @@ All labs are meant to be done in pairs using pair programming. That is: you **mu
 ::: -->
 
 ::: callout-important
-All labs are meant to be done in pairs using pair programming but this one! That is: you **must** configure your VS Code and Github individually in order to work in the other assignments.
+All labs are meant to be done in pairs using pair programming ***but this one***! That is: you **must** configure your VS Code and Github individually in order to work in the other assignments.
 :::
 
 Go to the webpage for your repository. You will need to get the ID of the repo. To get this, you click on the button **\<\> Code**, then click on the SSH tab. Then click on the two boxes to the right of where it says `git@github.com:...`. This copies your repo id to your clipboard.
@@ -130,15 +147,52 @@ Go to the webpage for your repository. You will need to get the ID of the repo. 
 
 The instructions in each assignment will remind you what to do:
 
--   Open a terminal (it could be the terminal from Linux or you can use the terminal from VS Code by typing Ctr + Shift + \`).
--   `cd cs112`
--   `git clone your-github-repo-url-here`
+Open a terminal (it could be the terminal from Linux or you can use the terminal from VS Code by typing Ctr + Shift + \`).
 
-For Lab 0, do this now replacing `your-github-repo-url-here` with what you copied to your clipboard (i.e., paste it in).
+``` bash
+pwd
+```
+
+If you aren't already in your cs112 directory, then do:
+
+``` bash
+cd cs112
+```
+
+Finally, do this command, substituting <your-github-repo-url-here> with the URL without the <>s.
+``` bash
+git clone <your-github-repo-url-here>
+```
+
+If you get prompted to access the github.com fingerprint, type: yes
 
 When you do this, `git clone your-github-repo-url-here` will download your repo to your **cs112** directory, into a directory called **lab0-yourgithubaccount** (where **yourgithubaccount** is actually your github account name.
 
-In the terminal do the following:
+Read the output from your command. You will notice that it didn't work! In order to use Github with Coder we need to setup something called a SSH public key within Github. Coder has generated one for you, and if you look in your terminal window, you will see a line that looks something like this:
+
+``` bash
+ssh-ed25519 AAAAC3NzaC1lZD1235st+gjhagr....
+```
+
+## Creating SSH Key Pair
+
+Github security now requires that you use an SSH Key Pair. An SSH key pair is two numbers -- a public key and a private key -- stored in two files. The public key can be shared publicly, but the private key should not be shared. Coder does this automatically for you.
+
+You will need to copy the bottom of the output you saw from above into github. To copy that output, select it with your mouse, and either do **Ctrl+Shift+c** or choose **Edit -\> Copy** from the menu. Do that now.
+
+Now, go to your github.com account in the browser. You will need to go to this page [https://github.com/settings/keys](https://github.com/settings/keys) while in your account. (Try clicking on the link, but if that does not work, do the following: in your github.com account page, find the image in the upper-right corner of the page, click on it, then choose *Settings* from the dropdown menu, then choose *SSH and GPG Keys* on the left menu, and click that.)
+
+Click the **New SSH Key** button in the upper right. Choose a Title: CS112 works well. Then paste the key you copied earlier into the Key textbox. Click the **Add SSH Key** button.
+
+## Creating a Project - Second Attempt
+
+We should be all ready to try our clone attempt again. Return to your terminal and repeat the last command.
+
+``` bash
+git clone <your-github-repo-url-here>
+```
+
+This time is should work correctly. To verify, in the terminal do the following:
 
 ``` bash
 ls 
@@ -146,29 +200,16 @@ ls
 
 This will show you the name of the directory containing the **lab0** code.
 
-cd into that directory, replacing **yourgithubaccount** with your actual github account name:
+cd into that directory, using the directory name you saw as the output of the 'ls' command:
 
 ```bash
-cd lab0-yourgithubaccount       
+cd lab-00-<nameofgithubrepo>
 ls 
 ```
 
-This will show you what files have been installed for you for this lab.
+This will show you what files have been installed for you for this lab. Switch back over to your VS Code, and see if you see the lab-00 directory there!
 
-Also, do the following, which you will never have to do again. In the terminal type (replacing John Doe, johndoe etc. with your information):
-
-``` bash
-git config --global user.name "John Doe"
-git config --global user.email johndoe@calvin.edu
-```
-
-If you want to check your credentials at any time, in the terminal type:
-
-``` bash
-git config --global --list
-```
-
-## Customizing VSCode
+## Customizing VS Code
 
 VS Code has tons of features. We will configure only a few of them at this point.
 
