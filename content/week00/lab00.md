@@ -25,8 +25,10 @@ You should also be familiar with basic C++ principles. For that, review [1.4. Le
 This lab tells you how to use VS Code in the Coder system of the CS Department. It will be required to use the terminal for a Linux environment. 
 
 ```{warning}
-If you have not experience with Linux commands in the terminal, you may want to work through this [Introductory Exercise](http://cs.calvin.edu/activities/books/java/intro/1e/HandsOnJava/labs/environments/Linux/Linux_os.html).
+If you have not experience with Linux commands in the terminal, you may want to work through this [Tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 ```
+
+<!-- [Introductory Exercise](http://cs.calvin.edu/activities/books/java/intro/1e/HandsOnJava/labs/environments/Linux/Linux_os.html). -->
 
 ## Using Linux
 
