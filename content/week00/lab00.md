@@ -137,7 +137,7 @@ Each lab and homework will contain a link to a **GitHub Classroom** assignment i
 
 When you click on the link, a repository for you will be created. The webpage will give you instructions on how to see that repository. The webpage for your repo will look something like this: **https://github.com/24SP-CS112/lab00-yourgithubteam**
 
-:::{.callout-important}
+:::{important}
 Click on the [invitation for this lab.](https://classroom.github.com/a/BgC81DgP)
 :::
 
@@ -145,7 +145,7 @@ Click on the [invitation for this lab.](https://classroom.github.com/a/BgC81DgP)
 All labs are meant to be done in pairs using pair programming. That is: you **must** find a pair before accepting the invitation. For the labs, **and only for the labs**, the invitation will require you create or join a Team. The first to accept the invitation should create a Team name, so your partner can join in afterwards.
 ::: -->
 
-:::{.callout-important}
+:::{important}
 All labs are meant to be done in pairs using pair programming but this one! That is: you **must** configure your VS Code and Github individually in order to work in the other assignments.
 :::
 
@@ -297,7 +297,7 @@ This is telling the terminal shell to run the lab0 executable that is in this di
 1.  In **main.cpp**, select all the code and delete it. Then, rewrite the code so that it prints out **Welcome to CS112 and C++!**. Don't cheat! Practice makes perfect. If you can't figure out why you are seeing an error, collaborate with your neighbor. Remember you have to compile your program each time before you try to execute it.
 2.  In your `main()`, define a variable name of type **string**, and initialize it to your name by asking for an input from the keyboard (take a look at the **cin** command in C++). When you run your executable, it will be waiting for you to type your name and hit Enter!
 
-::: callout-note
+:::{note}
 **strings** are surrounded by double quotes in C++. But in the case of entering them by using **cin**, double quotes are unnecessary.
 :::
 
@@ -341,7 +341,7 @@ int courseNumber();
 
 to the area where you have `#include <iostream>`.
 
-::: callout-note
+::: {note}
 Use `"utils.h"` not `<utils.h>`
 :::
 
