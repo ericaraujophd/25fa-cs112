@@ -12,17 +12,19 @@ LOtR warm up.
 
 In this exercise, you will:
 
-- Login to coder in order to use Linux resources.
+- Login to Coder in order to use Linux resources.
 - Use Linux commands to interact with files and folders.
 - Use VS Code to edit, compile, and run a program.
 
 ## Introduction
 
-**Welcome to CS112!** In this first lab exercise, we will introduce the Visual Studio Code editor, and see how we can use it to write a C++ program. The exercise assumes access to a C++ compiler (e.g., GNU's gcc/g++), the make utility through the Coder system, and that [VS Code](https://code.visualstudio.com/Download) have all been installed on your system.
+**Welcome to CS112!** 
+
+In this first lab exercise, we will introduce the *Visual Studio Code* editor, and see how we can use it to write a C++ program. The exercise assumes access to a C++ compiler (e.g., GNU's gcc/g++), the make utility through the Coder system, and that [VS Code](https://code.visualstudio.com/Download) have all been installed on your system.
 
 You should also be familiar with basic C++ principles. For that, review [1.4. Let’s look at a C++ program](https://runestone.academy/ns/books/published/cpp4python/IntroCpp/firstcppprogram.html#compilation) if you are coming into this class from CS10X and are used to Python.
 
-This lab tells you how to use VS Code in the Coder system of the CS Department. It will be required to use the terminal for a Linux environment. 
+This lab tells you how to use VS Code in the Coder system of the CS Department. It will be required to use the terminal for a Linux environment.
 
 ```{warning}
 If you have not experience with Linux commands in the terminal, you may want to work through this [Tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
@@ -47,7 +49,7 @@ Do this:
 
 ## Where to Store your CS112 Work
 
-You will have many assignments in CS112, and it is useful to put them all under one directory ("folder"). I recommend you create a directory called **cs112**, in your home directory. 
+You will have many assignments in CS112, and it is useful to put them all under one directory ("folder"). I recommend you create a directory called **cs112**, in your home directory.
 
 From your Coder webpage, click the Terminal Window. Then type this:
 
@@ -67,7 +69,7 @@ To verify what is your current directory, do this:
 pwd
 ```
 
-You should be in the /home/<username>/cs112 directory, where <username> is your own Calvin username.
+You should be in the /home/\<username\>/cs112 directory, where \<username\> is your own Calvin username.
 
 For this course, we will store all our code in the cs112 directory, and it will be up to you to make a clone in your sample labs and project directories for each lab and assignment.
 
