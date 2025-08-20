@@ -16,7 +16,7 @@ In this exercise, you will:
 - Use Linux commands to interact with files and folders.
 - Use VS Code to edit, compile, and run a program.
 
-## Introduction
+## 1. Introduction
 
 **Welcome to CS112!** 
 
@@ -32,11 +32,11 @@ If you have not experience with Linux commands in the terminal, you may want to 
 
 <!-- [Introductory Exercise](http://cs.calvin.edu/activities/books/java/intro/1e/HandsOnJava/labs/environments/Linux/Linux_os.html). -->
 
-## Using Linux
+## 2. Using Linux
 
 I would recommend that you bookmark this [Linux Quick Reference](/materials/LinuxQuickRef.pdf), so that you can locate it quickly in the future. Your instructor will conduct a quick introduction to using the Linux command-line. These are useful skills to practice, as they will allow you to login to a remote system (e.g., from home) and work with your files remotely.
 
-## Coder
+## 3. Coder
 
 The Calvin Computer Science department offers the [Coder](https://coder.cs.calvin.edu) service for this and other CS classes. Please take a moment to log into Coder using your web browser. Sign in using your full Calvin email address. When you log in, you will need to make your workspace for CS112.
 
@@ -47,7 +47,7 @@ Do this:
 3. Complete the form, using the name of "cs112". Leave the rest of the options the default, and click "Create workspace".
 4. After a few seconds, your workspace should start. Please leave this browser window open for future steps.
 
-## Where to Store your CS112 Work
+## 4. Where to Store your CS112 Work
 
 You will have many assignments in CS112, and it is useful to put them all under one directory ("folder"). I recommend you create a directory called **cs112**, in your home directory.
 
@@ -69,7 +69,7 @@ To verify what is your current directory, do this:
 pwd
 ```
 
-You should be in the `/home/\<username\>/cs112` directory, where `\<username\>` is your own Calvin username.
+You should be in the `/home/<username>/cs112` directory, where `<username>` is your own Calvin username.
 
 For this course, we will store all our code in the *cs112* directory, and it will be up to you to make a clone in your sample labs and project directories for each lab and assignment.
 
