@@ -27,14 +27,14 @@ You should also be familiar with basic C++ principles. For that, review [1.4. Le
 This lab tells you how to use VS Code in the Coder system of the CS Department. It will be required to use the terminal for a Linux environment.
 
 ```{warning}
-If you have not experience with Linux commands in the terminal, you may want to work through this [Tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
+If you have not experience with Linux commands in the terminal, you may want to work through this [Tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on your own time.
 ```
 
 <!-- [Introductory Exercise](http://cs.calvin.edu/activities/books/java/intro/1e/HandsOnJava/labs/environments/Linux/Linux_os.html). -->
 
 ## 2. Using Linux
 
-I would recommend that you bookmark this [Linux Quick Reference](/materials/LinuxQuickRef.pdf), so that you can locate it quickly in the future. Your instructor will conduct a quick introduction to using the Linux command-line. These are useful skills to practice, as they will allow you to login to a remote system (e.g., from home) and work with your files remotely.
+A goal for this class is for you to start to feel comfortable in Linux, and especially the Linux terminal (or command line). These are useful skills to practice, as they will allow you to login to a remote system (e.g., from home) and work with your files remotely. If you have not experience with Linux commands in the terminal, you may want to work through this [Tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) on your own time.
 
 ## 3. Coder
 
