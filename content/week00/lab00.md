@@ -69,11 +69,11 @@ To verify what is your current directory, do this:
 pwd
 ```
 
-You should be in the /home/\<username\>/cs112 directory, where \<username\> is your own Calvin username.
+You should be in the `/home/\<username\>/cs112` directory, where `\<username\>` is your own Calvin username.
 
-For this course, we will store all our code in the cs112 directory, and it will be up to you to make a clone in your sample labs and project directories for each lab and assignment.
+For this course, we will store all our code in the *cs112* directory, and it will be up to you to make a clone in your sample labs and project directories for each lab and assignment.
 
-![](imgs/lab00-mkdir.gif)
+<!-- ![](imgs/lab00-mkdir.gif) -->
 
 At this point, you can close the Terminal window.
 
