@@ -10,9 +10,9 @@ XKCD Comic #99 - Binary Heart ([source: xkcd.com/99/](https://xkcd.com/99/))
 
 ## Objectives
 
-- Practice creating variables, printing values, printing locations of variables, and so on.
+Practice creating variables, printing values, printing locations of variables, and so on.
 
-## Step 1. Setup
+## 1. Setup
 
 1. Click on this assignment invitation and then ["Accept this assignment"](https://classroom.github.com/a/K17ETY7L).
    - Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!".
@@ -29,7 +29,7 @@ XKCD Comic #99 - Binary Heart ([source: xkcd.com/99/](https://xkcd.com/99/))
    - Run the program: type `./tester`
    - You should get some basic output — or at least it should not crash.
 
-## Step 2
+## 2. Variables
 
 1. In **functions.cpp**, in `vars()`, create a **constant unsigned integer** called **BIG_NUMBER**, initialized to 10 million.
 2. Then, create a variable of type **string** and initialize it to your name. (Note: you will have to `#include <string>` to make this work.)
@@ -47,7 +47,7 @@ You'll get warnings about unused variables. Ignore them.
 At this point in the course, our tester program does not actually test the results in the output. However, when you submit your code to github, an automated testing script will run, which will test if the output is correct. If it isn't, you can then make fixes and resubmit to github.
 ```
 
-## Step 3
+## 3. Hexadecimal addresses
 
 Write code to print out the locations of each of the variables, in hexadecimal, on separate lines.
 
@@ -61,7 +61,7 @@ Compile and then run your program like this:
 If you get a weird answer for when you print out the location of the char variable, don't worry about it. Just go on.
 ```
 
-## Step 4
+## 4. Number Systems
 
 1. In `ns()`, write code to initialize a variable of type *int* to the value **37**.
 2. Write code to print out the value of that variable in decimal, octal, and hexadecimal, each on its own separate line. You will have to google how to do this in C++.
@@ -71,7 +71,7 @@ If you get a weird answer for when you print out the location of the char variab
 ./tester step4
 ```
 
-## Step 5
+## 5. Arrays
 
 1. In `arrays()`, create a variable that will hold an array of 20 floats.
 2. Write a line of code to print out the total size of that variable in decimal. Note that you might find `sizeof()` useful.
@@ -81,7 +81,7 @@ If you get a weird answer for when you print out the location of the char variab
 ./tester step5
 ```
 
-## Step 6
+## 6. Decrementing Unsigned Integers
 
 1. In `dec()`, create a variable that is an **unsigned integer**, initialized to 0.
 2. Write code to decrement the value, and then print it out.
@@ -92,7 +92,7 @@ If you get a weird answer for when you print out the location of the char variab
 ./tester step6
 ```
 
-## Submit
+## Submission
 
 In VS Code, click on the **Source Control** icon on the upper left and type in a commit message, then click the checkmark icon to submit your code.
 
