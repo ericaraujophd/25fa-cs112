@@ -228,7 +228,7 @@ VS Code has tons of features. We will configure only a few of them at this point
 
 First, let's install the C++ extensions. In the menu bar of VS Code, select **File -\> Open Folder**. Choose the directory that you downloaded when you did git clone above. That directory will be under your **cs112** directory. Next, open the **main.cpp** file. When you open that file VS Code is going to suggest (in the lower-right corner) that you install some extensions to help you work with C++ files. The extension that you want to install is called the **C/C++ Extension Pack**. Select that and install it.
 
-:::{figure} imgs/lab00-installCpp.gif
+:::{figure} imgs/lab00-InstallCpp.gif
 Installing C/C++ Extension Pack in VS Code
 :::
 
