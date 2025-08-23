@@ -38,5 +38,23 @@ The course is organized around these components:
 3. The projects in which students will (individually) practice using and building data structures.
 
 Each week's lectures, labs and projects will cover the same concepts, but will do so in different ways.
+ 
+## Computer Science & Data Study Sessions and Tutoring
+
+This class has a Study Session as part of your formula for success: **Attend class + Utilize Professor Office Hours + Attend Study Sessions = Best Practices for Successful Students!**
+
+You should regularly attend the Study Sessions for this course early in the semester to prevent falling behind: don’t wait until after you get the results from your first test! These are held from **7-9pm on Monday & Thursday in Science Building Lab 337, beginning on September 8, 2025**, and offer you 4 hours of help each week.
+
+In the Study Sessions, you can do your homework surrounded by others in your class, work together with classmates, and ask questions of the Peer Tutors provided to help you. It is up to you to advocate for yourself: ask clear questions, ask follow-up questions if needed, and remember that the tutors aren’t there to give you the answers, but to help you learn how to find them!
+
+Study Sessions are drop-in, so you can come for 10 minutes or 2 hours, depending on what you need on any given day. If you find you need additional support after having attended at least 2 Study Sessions, you can request an extra hour of 1:1 Tutoring for this class. You can sign up to meet with a tutor, and you will then be provided one hour each week for the remainder of the semester in addition to the Study Sessions.
+
+Any questions or information about these (free) Support Services may be directed to Emily Bosscher (<emily.bosscher@calvin.edu>) or scan the QR code below.
+
+```{figure} figures/study-session-qr.png
+---
+name: study_session_qr
+---
+```
 
 The first 4 weeks will be dedicated to learning C++. After that, we will begin studying data structures.
