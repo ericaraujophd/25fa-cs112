@@ -258,6 +258,12 @@ Changing C/C++ settings in VS Code
 
 You can close the Settings window now.
 
+The last step we will take is fixing the red-underlined C++ lines of code. To do this, we need to set the default C++ Intellisense configuration. Do this:
+
+From the "Help" menu, select "Show All Commands" or push the keyboard combo of Ctrl+Shift+P. In the search bar, search for "Select Intellisense Configuration". This should show you something that looks like "C/C++: Select Intellisense Configuration". In the following menu, you will be prompted to select which compiler you want to use. We want to use: Use g++ (found in /usr/bin)
+
+After this, you are done!
+
 ## 8. Compiling your Program
 
 Take a look at your **main.cpp** file. It should look like this:
