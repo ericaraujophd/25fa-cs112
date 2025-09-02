@@ -135,7 +135,7 @@ If you plan to work on your own machine instead of a lab machine, you will have 
 
 Each lab and homework will contain a link to a **GitHub Classroom** assignment invitation. The lab or homework will give you instructions on how to accept the invitation and then download the code for that assignment.
 
-When you click on the link, a repository for you will be created. The webpage will give you instructions on how to see that repository. The webpage for your repo will look something like this: https://github.com/24SP-CS112/lab00-yourgithubteam
+When you click on the link, a repository for you will be created. The webpage will give you instructions on how to see that repository. The webpage for your repo will look something like this: `https://github.com/24SP-CS112/lab00-yourgithubteam` (Note: this URL doesn't exist! It is just an example to show you what your repo URL will look like.)
 
 :::{important}
 Click on the [invitation for this lab.](https://classroom.github.com/a/BgC81DgP)
