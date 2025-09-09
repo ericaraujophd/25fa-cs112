@@ -135,7 +135,7 @@ If you plan to work on your own machine instead of a lab machine, you will have 
 
 Each lab and homework will contain a link to a **GitHub Classroom** assignment invitation. The lab or homework will give you instructions on how to accept the invitation and then download the code for that assignment.
 
-When you click on the link, a repository for you will be created. The webpage will give you instructions on how to see that repository. The webpage for your repo will look something like this: **https://github.com/24SP-CS112/lab00-yourgithubteam**
+When you click on the link, a repository for you will be created. The webpage will give you instructions on how to see that repository. The webpage for your repo will look something like this: `https://github.com/24SP-CS112/lab00-yourgithubteam` (Note: this URL doesn't exist! It is just an example to show you what your repo URL will look like.)
 
 :::{important}
 Click on the [invitation for this lab.](https://classroom.github.com/a/BgC81DgP)
@@ -258,6 +258,12 @@ Changing C/C++ settings in VS Code
 
 You can close the Settings window now.
 
+The last step we will take is fixing the red-underlined C++ lines of code. To do this, we need to set the default C++ Intellisense configuration. Do this:
+
+From the "Help" menu, select "Show All Commands" or push the keyboard combo of Ctrl+Shift+P. In the search bar, search for "Select Intellisense Configuration". This should show you something that looks like "C/C++: Select Intellisense Configuration". In the following menu, you will be prompted to select which compiler you want to use. We want to use: Use g++ (found in /usr/bin)
+
+After this, you are done!
+
 ## 8. Compiling your Program
 
 Take a look at your **main.cpp** file. It should look like this:
@@ -296,6 +302,11 @@ This is telling the terminal shell to run the lab0 executable that is in this di
 
 1.  In **main.cpp**, select all the code and delete it. Then, rewrite the code so that it prints out **Welcome to CS112 and C++!**. Don't cheat! Practice makes perfect. If you can't figure out why you are seeing an error, collaborate with your neighbor. Remember you have to compile your program each time before you try to execute it.
 2.  In your `main()`, define a variable name of type **string**, and initialize it to your name by asking for an input from the keyboard (take a look at the **cin** command in C++). When you run your executable, it will be waiting for you to type your name and hit Enter!
+
+``` cpp
+string name;
+cin >> name;
+```
 
 :::{note}
 **strings** are surrounded by double quotes in C++. But in the case of entering them by using **cin**, double quotes are unnecessary.
