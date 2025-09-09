@@ -12,7 +12,7 @@
 Find a partner before starting!
 ```
 
-- Click [this link]() and then **Accept this assignment**.
+- Click [https://classroom.github.com/a/ev2aMEzr]() and then **Accept this assignment**.
   - Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!". The page has a link to a github repo.
   - Click the link to see your new repo on github.com.
   - Click the green <span style="color: green;">Code</span> button and copy the SSH link it shows.
