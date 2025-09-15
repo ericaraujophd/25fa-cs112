@@ -257,10 +257,10 @@ Also, check to see that the automated tests pass.
 
 ## Grading Rubric
 
-Your submission will be graded this way: 18 pts total
+Your submission will be graded this way: 19 pts total
 
 - 10 pts for a correct function implementation
-- 7 pts for correct code in main().\
+- 8 pts for correct code in main().\
 - 1 pts for style: good variable names, perfect indentation, etc.
 
 Ways students have lost points in the past:
