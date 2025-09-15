@@ -15,7 +15,7 @@ In this exercise, you will:
 Find a partner before starting anything!
 ```
 
-1. Click [this link]() and then scroll down to choose a Team name. "Accept this assignment".
+1. Click [this link](https://classroom.github.com/a/TdzyCbz6) and then scroll down to choose a Team name. "Accept this assignment".
    - Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!". The page has a link to a github repo.
    - Click the link to see your new repo on github.com.
    - Click the green <span style="color: green;">Code</span> button and copy the SSH link it shows.
@@ -29,7 +29,7 @@ Find a partner before starting anything!
 
 ## Finding duplicates in an array of integers
 
-In this assignment, you will write a short function, `findDuplicate()`, that searches an array of integers to find the first pair of duplicate values. If a duplicate value is found, the function returns **true**, and "returns" the duplicate value through an *Out* parameter. If no duplicate value is found, the function returns **false**.
+In this assignment, you will write a short function, `findDuplicate()`, that searches an array of integers to find the first pair of duplicate values.  Please read this entire section before starting to code -- we'll do that in the next section! For our `findDuplicate()` function, if a duplicate value is found, the function returns **true**, and "returns" the duplicate value through an *Out* parameter. If no duplicate value is found, the function returns **false**.
 
 Think about the algorithm to find a duplicate value in an array. Consider the following array:
 
@@ -105,7 +105,7 @@ If your code does not pass this test, try fixing it. Take 5 minutes maximum to t
 
 A debugger is a program that allows you to set breakpoints in your code, and then run your code. When a breakpoint is encountered, the debugger stops, and allows you to view variables' values, the call stack, etc.
 
-[This video](https://youtu.be/vfPY7qFnDZI) shows you how to use the debugger with VS Code. You probably won't be able to watch this video on a lab machine, but if you have a laptop and/or phone and have earbuds or headphones, you should watch the video. Then, go down to **Step 3.5** below.
+[This video](https://youtu.be/vfPY7qFnDZI) shows you how to use the debugger with VS Code. You should watch the video now, or as a homework exercise. Then, go down to **Step 3.5** below.
 
 If you cannot watch the video, I'll describe how to use the debugger here:
 
@@ -164,7 +164,7 @@ Debugger has stopped at the breakpoint
 ```
 
 ```{caution}
-If you saw an error when you started debugging, you might be trying to debug the wrong executable. Look at the image just above. Notice that next to the green arrow is a small menu, with a dropdown arrow. You might be trying to debug the "lab2" program instead of the tester program. If you don't see "tester", click on the dropdown arrow and choose "Launch tester", then click the green right-arrow and try again.
+If you saw an error when you started debugging, you might be trying to debug the wrong executable. Look at the image just above. Notice that next to the green arrow is a small menu, with a dropdown arrow. You might be trying to debug the "Debug lab2" program instead of the tester program. 
 ```
 
 You know where your code has stopped because you see the yellow "arrow" overlaying the red dot. This means your code has run to this point and is stopped.
@@ -200,8 +200,6 @@ This really concludes our introduction to using the debugger.
 📌 **Please note these caveats:**
 
 - If you make changes to your code, you have to recompile before using the debugger again. Starting or restarting the debugger will not first recompile your code! (To recompile, use make tester .)
-- Running the debugger on MacOS (gdb) has problems. I've never gotten it to work on my Mac. Prof. Araújo has been working on that and is comming up with a solution "soon".
-- I haven't tested running the debugger on Windows. If you want to try that, you will probably have to change the .vscode/launch.json file. When you open that file in VSCode, you get a menu that allows you to insert new configurations -- so it might be super easy to get this working -- or not easy at all. 🙂
 
 ## Step 4. Get your code working against all tests
 
@@ -259,10 +257,10 @@ Also, check to see that the automated tests pass.
 
 ## Grading Rubric
 
-Your submission will be graded this way: 18 pts total
+Your submission will be graded this way: 19 pts total
 
 - 10 pts for a correct function implementation
-- 7 pts for correct code in main().\
+- 8 pts for correct code in main().
 - 1 pts for style: good variable names, perfect indentation, etc.
 
 Ways students have lost points in the past:
