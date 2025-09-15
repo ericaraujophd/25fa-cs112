@@ -38,12 +38,12 @@ At the end of this unit, students will be able to...
 ::::{tab-set}
 :::{tab-item} Array Addressing
 :sync: tab1
-- [POGIL](https://docs.google.com/document/d/1myVaJT3i1hECM4BHs9LpbLz3a3heVPp6SJiEjoEvG_M/edit?tab=t.0#heading=h.im9274hm9wa0)
-- [Answers](https://drive.google.com/file/d/1mn5yCzIJuURMiP3MOtO9amEQzUVAQCQZ/view?usp=sharing)
+- [Array Addressing POGIL](https://docs.google.com/document/d/1myVaJT3i1hECM4BHs9LpbLz3a3heVPp6SJiEjoEvG_M/edit?tab=t.0#heading=h.im9274hm9wa0)
+- [Array Addressing Answers](https://drive.google.com/file/d/1mn5yCzIJuURMiP3MOtO9amEQzUVAQCQZ/view?usp=sharing)
 :::
 :::{tab-item} Parameter Passing
 :sync: tab2
-- [POGIL](https://docs.google.com/document/d/1OxsfopX1jljJVWKQ-6eeDuSGO5nRzxOdPHkQ4LPRt-U/edit?usp=sharing)
-- [Answers](https://drive.google.com/file/d/1rPum6ihNwUKRJpZBSTQF8v7QKfOdog11/view?usp=drive_link)
+- [Parameter Passing POGIL](https://docs.google.com/document/d/1OxsfopX1jljJVWKQ-6eeDuSGO5nRzxOdPHkQ4LPRt-U/edit?usp=sharing)
+- [Parameter Passing Answers](https://drive.google.com/file/d/1rPum6ihNwUKRJpZBSTQF8v7QKfOdog11/view?usp=drive_link)
 :::
 ::::
