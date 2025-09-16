@@ -19,8 +19,7 @@ Find a partner before starting!
 - In a terminal,
   - `cd` to the directory where you are putting all your CS112 assignments.
   - type `git clone <paste-the-contents-of-the-link-you-copied>`
-  - `cd` to the new directory containing your repo.
-  - type `code .` to start up Visual Studio Code in that directory.
+- In VS Code, "Open Folder" and navigate to your newly created folder.
 - Make sure you and your partner are part of the same Team when creating the repo.
 - Inspect the code you got in the assignment.
 - In the terminal, type `make`.
