@@ -2,7 +2,7 @@
 
 ## Part 0. Prepare
 
-1. Click this [link]() and then "Accept this assignment". Make sure you and your partner are in the **same Team**. Pick a name for your team different from previous labs. I recommend you keep the name and add a -lab03 to it.
+1. Click this [link](https://classroom.github.com/a/-AfU3cG-) and then "Accept this assignment". Make sure you and your partner are in the **same Team**. Pick a name for your team different from previous labs. I recommend you keep the name and add a -lab03 to it.
    - Wait a few seconds and refresh the page. Refresh until the page says "You're ready to go!". The page has a link to a github repo.
    - Click the link to see your new repo on github.com.
    - Click the green <span style="color: green;">Code</span> button and copy the SSH link it shows.
