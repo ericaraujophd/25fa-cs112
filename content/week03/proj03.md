@@ -26,8 +26,8 @@ The methods that must be defined for the class are: `addScore(int score)`, `getS
 ## Step 1. Starting slow...
 
 1. Create a `TEST_CASE` that creates a HighScores object, and a `SECTION("getNumScores")` that calls `getNumScores()` on that object, and then REQUIREs that the result is 0. Compile (`make tester`) and see errors.
-2. Now, in **HighScores.h**, create the HighScores class and in the class's **private:** section, create an array of size 10 of integers called `myScores`. And, create a variable called `myNumScores` that stores how many scores are being stored.
-3. In the constructor, initialize both variables. You will have to write a loop to initialize every entry of `myScores` to 0.
+2. Now, in **HighScores.h**, create the HighScores class and in the class's **private:** section, create an array of size 10 of integers called `myScores`. And, create a variable called `myNumScores` that stores how many scores are being stored. Don't forget to create the prototypes for the constructor and the other methods.
+3. In **HighScores.cpp** implement the constructor, initializing both variables. You will have to write a loop to initialize every entry of `myScores` to 0.
 4. Create the getter `getNumScores()`. Then, compile and run: your test should now pass.
 
 ## Step 2. Adding a first score
@@ -50,10 +50,10 @@ This is not a correct solution, but for the time being, it is good enough.
 
 Also, at this time, implement the method `getScore(i)`. The parameter is an index of the score to return. For example, if the array has the value 42 at index 7 and the code calls `getScore(7)`, the value 42 should be returned. You should write multiple tests to make sure the results you get are correct.
 
-If the user passes in an invalid index — i.e., an index that is $>= myNumScores$, throw an **invalid_argument** exception. (include `<stdexcept>` and add the `using namespace std;` stuff). Use `REQUIRES_THROWS_AS()` to test if the exception is thrown.
+If the user passes in an invalid index — i.e., an index that is $>= myNumScores$, throw an **invalid_argument** exception. (include `<stdexcept>` and add the `using namespace std;` stuff). Use `REQUIRE_THROWS_AS()` to test if the exception is thrown.
 
 ```{tip}
-Look at **tests.cpp** in lab03 to see an example.
+Look at **tests.cpp** in Lab 03 to see an example.
 ```
 
 ## Step 4. Keep the scores sorted
