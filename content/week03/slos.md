@@ -18,11 +18,11 @@ Students will be able to:
 ## Assignments
 
 ```{attention} Lab 03: Classes
-📄 [Instructions](/labs/lab03.md)
+📄 [Instructions](lab03.md)
 ```
 
 ```{caution} Project 03: Classes
-📄 [Instructions](/projects/proj03.md)
+📄 [Instructions](proj03.md)
 ```
 
 ```{important} Exam 1
