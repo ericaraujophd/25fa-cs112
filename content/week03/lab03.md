@@ -64,7 +64,7 @@ Don't delete any old tests -- just keep adding more. Put each test in its own `S
 For the instance variables that are mutable (see the table above), create setter methods. But first, for each, create a test. Put all of these tests in a new `SECTION` within the "Student class" `TEST_CASE`.
 
 ```{tip} Example
-For the `setGpa` test, set the student's gpa to 3.25, then in a REQUIRE statement, call `getGpa()` and make sure the value is 3.25.
+For the `setGpa` test, set the student's gpa to 3.25, then in a REQUIRE statement, call `getGpa()` and make sure the value is 3.25. Make sure the return type for your setters are `void`. 
 ```
 
 ### Step 4. Create an explicit-value constructor
@@ -148,7 +148,7 @@ You can run only some tests by putting the name of the test on the command line.
 
 ### Step 4. setters
 
-1. Create tests to test setters.
+1. Create tests to test setters, using the return type of void.
 2. Then, create the methods and the code so it will compile and run successfully.
 
 ### Step 5. Fanciness
@@ -169,7 +169,7 @@ SECTION("setDenominator") {
 
 ### Step 6. Display as a *string*
 
-Create a test to call `asString()` on a Fraction object: If you create a new Fraction object `newFrac` and call `newFrac.asString()`, you can `REQUIRE` that the result should be "0/1". Initially, this test will fail, so create the method, which returns a string.
+Create a test to call `asString()` on a Fraction object: If you create a new Fraction object `newFrac` and call `newFrac.asString()`, you can `REQUIRE` that the result should be "0/1". Initially, this test will fail, so create the method, which returns a string. This function will be a const function - it will not change any of our private variables. Make sure to define it as `string asString() const`.
 
 ```{note}
 In `asString()` you can use `to_string(anInt)` to convert an integer into a string. And, you can concatenate strings with +. `to_string()` is defined in `<string>` so you'll have to `#include` that.
