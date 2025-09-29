@@ -325,7 +325,7 @@ Also, verify that your submission passes all the automated tests in github. The 
 
 24 pts total
 
-- 16 pts for correct code that passes all the tests
+- 25 pts for correct code that passes all the tests
 - 2 pts for clean, neat code, well-indented, and readable
 - 6 pts for correctness (see common mistakes below).
 
@@ -334,4 +334,4 @@ Ways students lost points in the past:
 - -1: Be careful about brace indentation <!-- + -1: Assignment operator leaks memory if the old `mySize > 0` and `original.mySize == 0` (remove Vec.cpp line <redacted>, check instructions carefully) --> <!-- + -1: Tester crashes at line <redacted>, should be < newSize in case newSize is smaller than mySize (otherwise you index past the end of the array) -->
 - -1: Memory leak in `setSize()` when mySize \< newSize. You need to delete\[\] myArray in both cases; move it outside the else statement.
 - -2: Make sure you are using `delete[]` and not `delete`, which leaks memory
-- -24: No submission, or partner forgot to include you in README.
+- -33: No submission, or partner forgot to include you in README.
