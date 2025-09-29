@@ -9,7 +9,7 @@ In this exercise, you will:
 
 ## Introduction
 
-You should know how to [get the assignment](). So, do it.
+You should know how to [get the assignment](https://classroom.github.com/a/i4V0aHpY). So, do it.
 
 ```{important}
 Don't forget to make sure you and your partner are in the same Team! Also edit the README.md file and put both of your names and emails in the file.
@@ -21,7 +21,7 @@ The class in **Vec.h** is a mere shell at this point. Filling in this shell is o
 
 ## Step 1. Getting Started
 
-Open each file and take a moment to browse through them, to get a sense of what each one contains. Note that **test.cpp** contains tests for a variety of Vec operations.
+Open each file and take a moment to browse through them, to get a sense of what each one contains. Note that **tests.cpp** contains tests for a variety of Vec operations.
 
 Our approach today will be to use the following steps to build each operation:
 
