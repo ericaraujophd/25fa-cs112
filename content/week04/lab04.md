@@ -186,7 +186,7 @@ Add the code above to the .cpp file. Then, add a prototype to the Vec class, and
 1. Set `mySize` to the `size` of original
 2. If `original.mySize` is greater than zero:
     1. Dynamically allocate an array of `mySize` values of type `Item`, and store the address of the array in `myArray`.
-    2. Set each item~i~ in the new array to item~i~ from original.
+    2. Set each item `i` in the new array to item `i` from original.
 3. Otherwise, set `myArray` to `nullptr`.
 
 Continue when your constructor passes all tests. (I am now seeing 42 assertions in 9 test cases passing.)
@@ -267,7 +267,7 @@ bool Vec::operator==(const Vec& v2) const {
 Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomment the code to test "equality" (`TEST_CASE("equality")`). Then add statements to the stub so that it passes the test. Algorithm:
 
 1. Check to see if `mySize` is NOT the same as the size of v2. If the two vectors are not the same size, return false.
-2. Compare each item~i~ in `myArray` to each item~i~ from v2's array: If any are not equal, return **false**.
+2. Compare each item `i` in `myArray` to each item `i` from v2's array: If any are not equal, return **false**.
 3. The two arrays are equal in size, and all their values are the same, so return **true**.
 
 Continue when your method passes all tests. By now you should have 74 assertions in 9 test cases.
