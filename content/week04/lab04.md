@@ -204,7 +204,7 @@ Vec::~Vec() {
 
 Skeleton code is already in the .h and .cpp files. Uncomment the code to test the destructor in **tests.cpp**. Then add the statements to the destructor to reclaim the dynamic array whose address is in `myArray`, set `myArray` to **nullptr**, and set `mySize` to zero. Compile and see if your statements pass the test. Here is the algorithm to follow:
 
-1. Use `delete []` to deallocate the array whose address is stored in `myArray`: `delete [] myArray;`
+1. Use `delete []` to deallocate the array whose address is stored in `myArray` aka `delete [] myArray;`
 2. Set `myArray` to `nullptr`
 3. Set `mySize` to zero.
 
