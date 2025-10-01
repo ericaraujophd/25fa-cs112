@@ -9,7 +9,7 @@ In this exercise, you will:
 
 ## Introduction
 
-You should know how to [get the assignment](). So, do it.
+You should know how to [get the assignment](https://classroom.github.com/a/i4V0aHpY). So, do it.
 
 ```{important}
 Don't forget to make sure you and your partner are in the same Team! Also edit the README.md file and put both of your names and emails in the file.
@@ -21,7 +21,7 @@ The class in **Vec.h** is a mere shell at this point. Filling in this shell is o
 
 ## Step 1. Getting Started
 
-Open each file and take a moment to browse through them, to get a sense of what each one contains. Note that **test.cpp** contains tests for a variety of Vec operations.
+Open each file and take a moment to browse through them, to get a sense of what each one contains. Note that **tests.cpp** contains tests for a variety of Vec operations.
 
 Our approach today will be to use the following steps to build each operation:
 
@@ -186,7 +186,7 @@ Add the code above to the .cpp file. Then, add a prototype to the Vec class, and
 1. Set `mySize` to the `size` of original
 2. If `original.mySize` is greater than zero:
     1. Dynamically allocate an array of `mySize` values of type `Item`, and store the address of the array in `myArray`.
-    2. Set each item~i~ in the new array to item~i~ from original.
+    2. Set each item `i` in the new array to item `i` from original.
 3. Otherwise, set `myArray` to `nullptr`.
 
 Continue when your constructor passes all tests. (I am now seeing 42 assertions in 9 test cases passing.)
@@ -204,7 +204,7 @@ Vec::~Vec() {
 
 Skeleton code is already in the .h and .cpp files. Uncomment the code to test the destructor in **tests.cpp**. Then add the statements to the destructor to reclaim the dynamic array whose address is in `myArray`, set `myArray` to **nullptr**, and set `mySize` to zero. Compile and see if your statements pass the test. Here is the algorithm to follow:
 
-1. Use `delete []` to deallocate the array whose address is stored in `myArray`: `delete [] myArray;`
+1. Use `delete []` to deallocate the array whose address is stored in `myArray` aka `delete [] myArray;`
 2. Set `myArray` to `nullptr`
 3. Set `mySize` to zero.
 
@@ -267,7 +267,7 @@ bool Vec::operator==(const Vec& v2) const {
 Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomment the code to test "equality" (`TEST_CASE("equality")`). Then add statements to the stub so that it passes the test. Algorithm:
 
 1. Check to see if `mySize` is NOT the same as the size of v2. If the two vectors are not the same size, return false.
-2. Compare each item~i~ in `myArray` to each item~i~ from v2's array: If any are not equal, return **false**.
+2. Compare each item `i` in `myArray` to each item `i` from v2's array: If any are not equal, return **false**.
 3. The two arrays are equal in size, and all their values are the same, so return **true**.
 
 Continue when your method passes all tests. By now you should have 74 assertions in 9 test cases.
@@ -325,7 +325,7 @@ Also, verify that your submission passes all the automated tests in github. The 
 
 24 pts total
 
-- 16 pts for correct code that passes all the tests
+- 25 pts for correct code that passes all the tests
 - 2 pts for clean, neat code, well-indented, and readable
 - 6 pts for correctness (see common mistakes below).
 
@@ -334,4 +334,4 @@ Ways students lost points in the past:
 - -1: Be careful about brace indentation <!-- + -1: Assignment operator leaks memory if the old `mySize > 0` and `original.mySize == 0` (remove Vec.cpp line <redacted>, check instructions carefully) --> <!-- + -1: Tester crashes at line <redacted>, should be < newSize in case newSize is smaller than mySize (otherwise you index past the end of the array) -->
 - -1: Memory leak in `setSize()` when mySize \< newSize. You need to delete\[\] myArray in both cases; move it outside the else statement.
 - -2: Make sure you are using `delete[]` and not `delete`, which leaks memory
-- -24: No submission, or partner forgot to include you in README.
+- -33: No submission, or partner forgot to include you in README.
