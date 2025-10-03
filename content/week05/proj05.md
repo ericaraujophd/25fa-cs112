@@ -20,7 +20,7 @@ This assignment is to process the games to
 
 ## Step 1. Setup
 
-Make your **proj5** repo as normal, using [this link]().
+Make your **proj5** repo as normal, using [this link](https://classroom.github.com/a/70PgeK0F).
 
 You will need to make yourself a [Bridges Account here](http://bridges-cs.herokuapp.com/signup).
 
