@@ -84,7 +84,7 @@ The readings for this course are from [C++ for Python Programmers Book](https://
       <td style="border: 1px solid #ddd; padding: 8px;">Linked Lists, Dynamic Array or Linked List</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">💯 Test 2: Weeks 0 - 5, Friday</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">💯 Test 2: Weeks 0 - 5, Wednesday</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td>
