@@ -253,7 +253,7 @@ Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomm
     </li>
 </ol>
 
-```
+<!-- ```
 1. If `mySize` and `newSize` are different:
     a. If `newSize` is zero:
         1. Deallocate `myArray`
@@ -269,7 +269,7 @@ Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomm
         8. Set `mySize` to `newSize`.
         9. Deallocate `myArray`.
         10. Set `myArray` to `newArray`.
-```
+``` -->
 
 When your method passes all tests (67 assertions in 9 test cases), continue.
 
