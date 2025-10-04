@@ -223,23 +223,53 @@ void Vec::setSize(unsigned newSize) {
 
 Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomment all the code in the `TEST_CASE("setSize")`. Then complete the stub so that it passes the test. Think carefully! This one is deceptively tricky to get right! Algorithm:
 
-```
+
+<ol>
+    <li>If <code>mySize</code> and <code>newSize</code> are different:
+        <ol type="a">
+            <li>If <code>newSize</code> is zero:
+                <ol type="i">
+                    <li>Deallocate <code>myArray</code></li>
+                    <li>Set <code>myArray</code> to <code>nullptr</code></li>
+                    <li>Set <code>mySize</code> to zero.</li>
+                </ol>
+            </li>
+            <li>Otherwise:
+                <ol type="i">
+                    <li>Declare a local variable <code>newArray</code> of type <code>Item *</code></li>
+                    <li>Allocate a new dynamic array of <code>newSize</code> Items, storing its address in <code>newArray</code>.</li>
+                    <li>If <code>mySize</code> is less than <code>newSize</code>:
+                        <ol type="a">
+                            <li>Copy <code>mySize</code> values from <code>myArray</code> into <code>newArray</code>.</li>
+                            <li>Set the remaining (<code>newSize - mySize</code>) values to zero.</li>
+                        </ol>
+                    </li>
+                    <li>Otherwise, just copy <code>newSize</code> values from <code>myArray</code> into <code>newArray</code>.</li>
+                    <li>Set <code>mySize</code> to <code>newSize</code>.</li>
+                    <li>Deallocate <code>myArray</code>.</li>
+                    <li>Set <code>myArray</code> to <code>newArray</code>.</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+
 1. If `mySize` and `newSize` are different:
     a. If `newSize` is zero:
         1. Deallocate `myArray`
         2. Set `myArray` to `nullptr`
         3. Set `mySize` to zero.
     b. Otherwise:
-        1. Declare a local variable `newArray` of type `Item *`
-        2. Allocate a new dynamic array of `newSize` Items, storing its address in `newArray`.
-        3. If `mySize` is less than `newSize`:
+        4. Declare a local variable `newArray` of type `Item *`
+        5. Allocate a new dynamic array of `newSize` Items, storing its address in `newArray`.
+        6. If `mySize` is less than `newSize`:
             1. Copy `mySize` values from `myArray` into `newArray`.
             2. Set the remaining (`newSize - mySize`) values to zero.
-        4. Otherwise, just copy `newSize` values from `myArray` into `newArray`.
-        5. Set `mySize` to `newSize`.
-        6. Deallocate `myArray`.
-        7. Set `myArray` to `newArray`.
-```
+        7. Otherwise, just copy `newSize` values from `myArray` into `newArray`.
+        8. Set `mySize` to `newSize`.
+        9. Deallocate `myArray`.
+        10. Set `myArray` to `newArray`.
+
 
 When your method passes all tests (67 assertions in 9 test cases), continue.
 
