@@ -223,7 +223,6 @@ void Vec::setSize(unsigned newSize) {
 
 Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomment all the code in the `TEST_CASE("setSize")`. Then complete the stub so that it passes the test. Think carefully! This one is deceptively tricky to get right! Algorithm:
 
-
 <ol>
     <li>If <code>mySize</code> and <code>newSize</code> are different:
         <ol type="a">
@@ -254,6 +253,7 @@ Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomm
     </li>
 </ol>
 
+```
 1. If `mySize` and `newSize` are different:
     a. If `newSize` is zero:
         1. Deallocate `myArray`
@@ -269,7 +269,7 @@ Place a prototype for this method in the Vec class, and in **tests.cpp**, uncomm
         8. Set `mySize` to `newSize`.
         9. Deallocate `myArray`.
         10. Set `myArray` to `newArray`.
-
+```
 
 When your method passes all tests (67 assertions in 9 test cases), continue.
 
