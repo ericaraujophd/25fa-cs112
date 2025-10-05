@@ -133,7 +133,7 @@ Vec Vec::operator+(const Vec &rhs) const
 Implement it. The implementation is quite simple: make sure the sizes of the two Vecs are the same. If not, throw an error of type `invalid_argument`. If they are the same, create a new Vec object (of the correct size) and loop, repeated adding the values from `myArray[i]` and `rhs[i]` together and putting the result into the new Vec object.
 
 ```{note}
-Uncomment the `TEST_CASE("addition")` in line 344 to test if your code works. Do not move foward if you get errors.You should have 139 assertions in 12 test cases passed at this moment.
+Uncomment the `TEST_CASE("addition")` in line 344 to test if your code works. Do not move foward if you get errors. You should have 139 assertions in 12 test cases passed at this moment.
 ```
 
 ### 1.3 Vector Subtraction
@@ -189,7 +189,7 @@ the program should then display the starting position and the final position (`{
 You may (if you wish) have your program display the starship's new position each time it is updated, rather than just displaying the final position at the end.
 ```
 
-Your application should have the user enter the vectors in the format expected by your `readFrom(istream&)` method: numbers separated by whitespace. (It does not have to parse through curly-brace and comma characters.) Likewise, your application can display the starship's position using the format provided by your `writeTo(ostream&)` method -- numbers separated by spaces.
+Your application should have the user enter the vectors in the format expected by your `readFrom(istream&)` method: numbers separated by whitespace. (It does not have to parse through curly-brace and comma characters.) Likewise, your application can display the starship's position using the format provided by your `writeTo(ostream&)` method—numbers separated by spaces.
 
 To get you well on your way, your repo contains **App.cpp** and **App.h**. These files provide most of what you have to implement to finish this project. Just implement the missing TODO parts.
 
