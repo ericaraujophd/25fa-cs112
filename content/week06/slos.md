@@ -23,5 +23,5 @@ At the end of this unit, the student will be able to...
 ```
 
 ```{important} Exam 2
-**Exam 2** Exam on Friday during class. Bring your laptop. Content: Weeks 0 - 5.
+**Exam 2** Exam on Wednesday during class. Bring your laptop. Content: Weeks 0 - 5.
 ```
