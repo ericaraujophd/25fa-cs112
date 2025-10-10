@@ -17,8 +17,9 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
   - file: intro.md
-  - file: policies/policies.md
+  - title: Course Information
     children:
+    - file: policies/policies.md
     - file: policies/grading.md
     - file: policies/honesty.md
     - file: policies/classroom.md
