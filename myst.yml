@@ -25,40 +25,49 @@ project:
   - file: content/organization.md
   - title: Course Content
     children:
-    - file: content/week00/slos.md
+    - title: Week 00
       children:
+      - file: content/week00/slos.md
       - file: content/week00/lab00.md
       - file: content/week00/proj00.md
-    - file: content/week01/slos.md
+    - title: Week 01
       children:
+      - file: content/week01/slos.md
       - file: content/week01/lab01.md
       - file: content/week01/proj01.md
-    - file: content/week02/slos.md
+    - title: Week 02
       children:
+      - file: content/week02/slos.md
       - file: content/week02/lab02.md
       - file: content/week02/proj02.md
-    - file: content/week03/slos.md
+    - title: Week 03
       children:
+      - file: content/week03/slos.md
       - file: content/week03/lab03.md
       - file: content/week03/proj03.md
-    - file: content/week04/slos.md
+    - title: Week 04
       children:
+      - file: content/week04/slos.md
       - file: content/week04/lab04.md
       - file: content/week04/proj04.md
-    - file: content/week05/slos.md
+    - title: Week 05
       children:
+      - file: content/week05/slos.md
       - file: content/week05/lab05.md
       - file: content/week05/proj05.md
-    - file: content/week06/slos.md
+    - title: Week 06
       children:
+      - file: content/week06/slos.md
       - file: content/week06/lab06.md
     - file: content/week07/slos.md
-    - file: content/week08/slos.md
+    - title: Week 08
       children:
+      - file: content/week08/slos.md
       - file: content/week08/lab08.md
       - file: content/week08/proj08.md
-    - file: content/week09/slos.md
+    - title: Week 09
       children:
+      - file: content/week09/slos.md
       - file: content/week09/lab09.md
       - file: content/week09/proj09.md
       - file: content/week09/lab09-hint.md
@@ -75,12 +84,14 @@ project:
         hidden: true
       - file: content/week09/lab09-hint-pop2.md
         hidden: true
-    - file: content/week10/slos.md
+    - title: Week 10
       children:
+      - file: content/week10/slos.md
       - file: content/week10/lab10.md
       - file: content/week10/proj10.md
-    - file: content/week11/slos.md
+    - title: Week 11
       children:
+      - file: content/week11/slos.md
       - file: content/week11/lab11.md
       - file: content/week11/lab11-hint.md
         hidden: true
@@ -88,11 +99,13 @@ project:
         hidden: true
       - file: content/week11/proj11.md
     - file: content/week12/slos.md
-    - file: content/week13/slos.md
+    - title: Week 13
       children:
+      - file: content/week13/slos.md
       - file: content/week13/lab13.md
-    - file: content/week14/slos.md
+    - title: Week 14
       children:
+      - file: content/week14/slos.md
       - file: content/week14/lab14.md
 site:
   template: book-theme

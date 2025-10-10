@@ -1,4 +1,4 @@
-# Week 03
+# Classes, Operator Overloading, etc
 
 ## SLOs for Week 3: Classes, Operator Overloading, etc
 

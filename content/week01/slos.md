@@ -1,4 +1,4 @@
-# Week 01
+# Control Structures, Functions, Parameter Passing modes
 
 ## SLOs for Week 01: Control Structures, Functions, Parameter Passing modes
 

@@ -1,6 +1,6 @@
-# Week 04
+# Vectors — Dynamic Arrays
 
-## SLOs for Week 04: Vectors -- Dynamic Arrays
+## SLOs for Week 04: Vectors — Dynamic Arrays
 
 Students will be able to...
 

@@ -1,4 +1,4 @@
-# Week 06
+# Linked Lists, Dynamic Array or Linked List
 
 ## SLOs for Week 06: Linked Lists, Dynamic Array or Linked List
 
