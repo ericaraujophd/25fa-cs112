@@ -1,4 +1,4 @@
-# Classes, Operator Overloading, etc
+# SLOs, Slides, and Assignments for Week 3
 
 ## SLOs for Week 3: Classes, Operator Overloading, etc
 

@@ -1,4 +1,4 @@
-# Linked Lists, Dynamic Array or Linked List
+# SLOs, Slides, and Assignments for Week 06
 
 ## SLOs for Week 06: Linked Lists, Dynamic Array or Linked List
 

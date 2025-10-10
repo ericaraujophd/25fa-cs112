@@ -2,7 +2,7 @@
 authors: null
 ---
 
-# Introduction to C++
+# SLOs, Slides, and Assignments for Week 00
 
 ## Student Learning Objectives (SLOs) for Week 00: Introduction to C++
 

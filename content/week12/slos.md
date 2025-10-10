@@ -1,4 +1,4 @@
-# Week 12
+# SLOs, Slides, and Assignments for Week 12
 
 ## SLOs for Week 12: AVL Trees
 

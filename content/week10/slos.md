@@ -1,4 +1,4 @@
-# Week 10
+# SLOs, Slides, and Assignments for Week 10
 
 ## SLOs for Week 10: Recursion
 

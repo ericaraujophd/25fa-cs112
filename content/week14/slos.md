@@ -1,4 +1,4 @@
-# Week 14
+# SLOs, Slides, and Assignments for Week 14
 
 ## SLOs for Week 14: Hash Tables and Sorting Algorithms
 

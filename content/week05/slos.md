@@ -1,4 +1,4 @@
-# Generic Containers
+# SLOs, Slides, and Assignments for Week 05
 
 ## SLOs for Week 05: Generic Containers
 
