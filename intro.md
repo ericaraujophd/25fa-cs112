@@ -12,6 +12,8 @@ Real Programmers. Source: [xkcd.com/378](https://xkcd.com/378/)
 
 This a permanently in construction website, so please [let us know](mailto:eric.araujo@calvin.edu) if you find any information missing or had some bad experience with the links and interface throughout the semester.
 
+All the codes created in class (aka live coding) are available in the [GitHub repository](https://github.com/ericaraujophd/25fa-cs112-live-coding).
+
 ## Instructors
 
 | Instructor | Email | Office Hours |
