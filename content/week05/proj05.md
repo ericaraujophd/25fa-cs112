@@ -14,11 +14,11 @@ The database contains 17,534 games in 33 genres. When you retrieve the games, th
 
 This assignment is to process the games to
 
-- Discover all the unique genres and print them out.
-- Ask the user to select a genre and print out all the games in that genre.
-- Do one more task of your own choosing.
+1. Discover all the unique genres and print them out.
+2. Ask the user to select a genre and print out all the games in that genre.
+3. Do one more task of your own choosing.
 
-## Step 1. Setup
+## Setup
 
 Make your **proj5** repo as normal, using [this link](https://classroom.github.com/a/70PgeK0F).
 
@@ -29,18 +29,18 @@ Please use your Calvin information, and do fill in the optional fields correctly
 To build your program use `make`. It produces an executable called **games**.
 
 ```{note} NOTE NOTE NOTE
-You will not be able to build your program on your own machine unless you download and install the Bridges libraries and include (header) files correctly. DO NOT ask Prof. Wieringa or Prof. Araújo to help you do that. Instead, just use the machines in the lab!
+You will not be able to build your program on your own machine unless you download and install the Bridges libraries and include (header) files correctly. DO NOT ask Prof. Wieringa or Prof. Araújo to help you do that. Instead, just use the machines in the lab or access your virtual machine through [Coder](https://coder.cs.calvin.edu/)!
 ```
 
-To run your program you have to provide **two command-line arguments**: your Bridges UserName and your Bridges Id. E.g., I run the program this way:
+To run your program you have to provide **two command-line arguments**: your Bridges *UserName* and your Bridges *Id*. E.g., I run the program this way:
 
 ```bash
-./games VictorNorman 1313148564
+./games ericaraujo 1313148564
 ```
 
 To get your username and id, login to the [bridges project](http://bridges-cs.herokuapp.com/login), and go to the Profile page where you will see your "User Name" and "API Sha1 Key". That second thing is your unique id.
 
-## Step 2. Information about using vector
+## Information about using vector
 
 You will use the STL's vector class template multiple times. The functions I used from the vector class were:
 
@@ -64,13 +64,13 @@ To sort a `vector<string>` you can just do this:
 sort(yourvector.begin(), yourvector.end());
 ```
 
-## Step 3: Implement collecting all the genres for the games
+## Step 1: Implement collecting all the genres for the games
 
 In the starting code you received in your repo, you'll see that **main.cpp** implements a simple menu system to allow the user to choose what action to take. Your job is to fill in the code to implement those actions, and at the end, add your own option.
 
-Start by implementing the "collect/show all genres" option in the function `collectAllGenres()`. This function takes one parameter — the vector of Game objects — and returns a vector of strings containing all the discovered genres, in sorted order. Make sure you pass in the parameter *efficiently* (**do not** use pass-by-value).
+Start by implementing the "*Show all genres*" option by creating the function `collectAllGenres()`. This function takes one parameter — the vector of Game objects — and returns a vector of strings containing all the discovered genres, in sorted order. Make sure you pass in the parameter *efficiently* (**do not** use pass-by-value).
 
-The function should first create a variable — I called it `all_genres` — that is a vector of strings. It will hold all the genres seen. Then, the function should loop through all the Game objects in the vector, and for each Game, loop through all genres the game belongs to. For each genre, it should search `all_genres`. If the new genre has not been seen before, add it to the end of the `all_genres` vector using `push_back()`.
+The function should first create a variable— I called it `all_genres` — that is a vector of strings. It will hold all the genres seen. Then, the function should loop through all the Game objects in the vector, and for each Game, loop through all genres the game belongs to. For each genre, it should search `all_genres`. If the new genre has not been seen before, add it to the end of the `all_genres` vector using `push_back()`.
 
 After getting all genres from all games, you should sort the vector and then return that vector of strings.
 
@@ -78,19 +78,19 @@ Your main code should print out the genres in a nice list with numbers in front,
 
 ```
 All genres:
-0. Action
-1. Adult
-2. Adventure
-3. Baseball
-4. Battle
-5. Board
-6. Card
-7. Casino
-8. Compilation
+1. Action
+2. Adult
+3. Adventure
+4. Baseball
+5. Battle
+6. Board
+7. Card
+8. Casino
+9. Compilation
 ... etc ...
 ```
 
-## Step 4. Print all games in a selected genre
+## Step 2. Print all games in a selected genre
 
 In the case statement in the main code, ask the user for a number of a genre: (the user enters 32 below)
 
@@ -119,7 +119,7 @@ Don't forget to sort the results before returning it from the function.
 
 The main code should then print out the result from the function.
 
-## Step 5. Implement something else interesting
+## Step 3. Implement something else interesting
 
 In this step, you get to implement something of your own choosing.
 
