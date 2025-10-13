@@ -11,7 +11,7 @@ In this exercise, you will:
 
 In this week's lab you will add more functionality to the List class we built in class.
 
-[Here is the invite]().
+[Here is the invite](https://classroom.github.com/a/q_TYUiif).
 
 Use git clone to get your copy of the assignment, as we have been doing. You should have these files: **List.cpp**, **List.h**, **tests.cpp**, plus a **makefile**, etc.
 
