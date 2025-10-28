@@ -16,7 +16,7 @@ For a given operation and several values of $n$, our basic methodology will be t
 
 ## Getting Started
 
-[Accept the invitation]() to the lab and do `git clone` to get the files, as usual. Make sure your partner is part of the same Team and edit the **README.md** file.
+[Accept the invitation](https://classroom.github.com/a/IoDoOh2Z) to the lab and do `git clone` to get the files, as usual. Make sure your partner is part of the same Team and edit the **README.md** file.
 
 ```{important}
 There is no autograder configuration for this lab, so don't freak out if you don't see the green mark when you commit and push your files to github.
