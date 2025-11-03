@@ -19,7 +19,7 @@ Today's exercise has two parts:
 
 
 ```{important} Getting Started
-[Accept the invitation]() to the lab and do git clone to get the files, as usual. Make sure your partner is part of the same Team and edit the **README.md** file.
+[Accept the invitation](https://classroom.github.com/a/czdZ8EJD) to the lab and do git clone to get the files, as usual. Make sure your partner is part of the same Team and edit the **README.md** file.
 ```
 
 ## Part I: The Stack Class
@@ -70,7 +70,7 @@ In **tests.cpp**, uncomment the `TEST_CASE` that tests `isEmpty()`. Compile and 
 
 In **Stack.h**, add a prototype for `isEmpty()` to the class. Recompile and rerun. You should now see a linking error, since `isEmpty()` has been prototyped but not defined.
 
-In **Stack.cpp**, add a definition for `isEmpty()` that will pass the tests. This definition should be as simple as possible (e.g., a single line). If you get stuck, here is a [hint](lab09-hint.md), but don't use it unless you have to.
+In **Stack.cpp**, add a definition for `isEmpty()` that will pass the tests. This definition should be as simple as possible (e.g., a single line if possible!). Also consider if this function changes anything within the class, and whether or not it needs to be constant or not. <!-- If you get stuck, here is a [hint](lab09-hint.md), but don't use it unless you have to. -->
 
 Recompile and rerun your test. Continue when you pass the test.
 
@@ -118,27 +118,27 @@ Compile and run the test. You should see error messages indicating that `push()`
 
 In **Stack.h**, add a prototype for `isFull()` to the class. Recompile. Next, add a prototype for `peekTop()` to the class. Recompile. You should now see just the error for `push()`. Add a prototype for `push()`; then recompile. You should now get only linking errors, since `isFull()`, `peekTop()`, and `push()` have been declared in **Stack.h** but not defined.
 
-In **Stack.cpp**, add a definition for `isFull()`. This definition should be as simple as possible (e.g., a single line).
+In **Stack.cpp**, add a definition for `isFull()`. This definition should be as simple as possible (e.g., a single line). Consider what the return type is, and whether or not the function makes changes to the class.
 
 Save/compile, and verify that the linking error for `isFull()` goes away. (The errors for `peekTop()` and `push()` should still be there.)
 
-Define the `peekTop()` method. Save/recompile, and verify that what you have written compiles without errors. (You should still see a linking error for `push()`.) Note that you do not have to handle the case (now) when you try to `peekTop()` on an empty Stack.
+Define the `peekTop()` method. What is the return type going to be? (Note you will be returning something from myArray!) Consider also whether or not we are changing anything within the class. How do we figure out what element to return, could we use our mySize or myCapacity variables? After writing your method, Save/recompile, and verify that what you have written compiles without errors. (You should still see a linking error for `push()`.) Note that you do not have to handle the case (now) when you try to `peekTop()` on an empty Stack.
 
-Define the `push()` method. Save/recompile, and verify that what you have written compiles and links without errors. (Again, do not worry about exceptional cases, yet.)
+Define the `push()` method. When we push to a stack, we won't be getting anything back (void return type). We are also making changes to our class, so it cannot be a const method. However, do we change the Item we are sending to the class? We should not. Do we pass the Item by value or by reference? Considering all of these, we should have a prototype that looks like this:  `void Stack::push(const Item& it)`  Consider additionally what happens when we "push" an item to our Stack. Where are we saving it into myArray? What other private variables change? Write your function, then save/recompile, and verify that what you have written compiles and links without errors. (Again, do not worry about exceptional or full cases, yet.)
 
-Run the tests. If you pass the tests, congratulations! If not, use the diagrams above to go back and fix your `push()`, `peekTop()`, and/or `isFull()` methods. If you get stuck, here are hints for [push()](lab09-hint-push.md), [peekTop()](lab09-hint-peektop.md), and [isFull()](lab09-hint-isfull.md), but only use them if you have to.
+Run the tests. If you pass the tests, congratulations! If not, use the diagrams above to go back and fix your `push()`, `peekTop()`, and/or `isFull()` methods. <!-- If you get stuck, here are hints for [push()](lab09-hint-push.md), [peekTop()](lab09-hint-peektop.md), and [isFull()](lab09-hint-isfull.md), but only use them if you have to. -->
 
 Continue when your methods pass all the tests.
 
 ### The pop() Method
 
-Our sole remaining operation is the `pop()` method, that removes and returns the top value from the Stack.
+Our sole remaining operation is the `pop()` method, that removes and returns the top value from the Stack. 
 
 In **tests.cpp**, uncomment the `TEST_CASE` for `testPop()`. Compile and run the test. You should see an error message indicating that `pop()` does not exist.
 
 In **Stack.h**, add a prototype for `pop()` to the class. Recompile and rerun. You should now see a linking error, since `pop()` has a prototype but no definition.
 
-In **Stack.cpp**, add a definition for `pop()` that will pass `testPop()`. For now, this definition should be as simple as possible (e.g., it can be as short as a single line). If you get stuck, here is a [hint](lab09-hint-pop.md), but don't use it unless you have to.
+In **Stack.cpp**, add a definition for `pop()` that will pass `testPop()`. For now, this definition should be as simple as possible (e.g., it can be as short as a single line). <!-- If you get stuck, here is a [hint](lab09-hint-pop.md), but don't use it unless you have to. -->
 
 Recompile and rerun your test. Continue when you pass the test.
 
@@ -262,11 +262,13 @@ Congratulations! You now have a full-featured (array-based) Stack class at your 
 
 We have talked about the best way to implement a Queue using a linked list -- insert at the tail of the queue and remove from the front of the queue. And, you have code from Lab 6 in which you implemented and tested a linked list -- so you shouldn't have to do too much to adapt that code to represent the Queue ADT.
 
-Look at the **Queue.h** and **Queue.cpp** files in the repository. The methods are there, but they are all empty. Now, go find your code from Lab 6, and fill in the methods, copying (and adapting) code from there. This shouldn't take long. The only code you may have to implement is the `remove()` code -- which removes the item from the front of the linked list.
+Look at the **Queue.h** and **Queue.cpp** files in the repository. The methods are there, but they are all empty. Now, go find your code from Lab 6, and fill in the methods, copying (and adapting) code from there. This shouldn't take long. The only code you may have to implement is the `remove()` code -- which removes the item from the front of the linked list. Additionally, we will not have an `append()` function, but instead have a `add()` function.
 
 You may wonder why we have a `isFull()` method that will always return **false** when we implement the queue using a linked list. Why even have it? The answer is that the user of the Queue does not know how the Queue is implemented, so they don't know that the Queue can never be full.
 
 You do NOT have to add any more methods (the linked list implementation has many more methods available, but the Queue has fewer, as it should).
+
+Lastly, make sure that you additionally implement QueueExceptions whereever appropriate. The auto-grader will be looking for QueueExceptions to be thrown appropriately in your code.
 
 ````{caution}
 To compile the Queue .h and .cpp files, you have to edit the makefile:
