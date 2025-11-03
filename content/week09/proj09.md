@@ -2,7 +2,7 @@
 
 ## Prepare
 
-[Accept the assignment]() and use git clone to create your copy of the code.
+[Accept the assignment](https://classroom.github.com/a/MoyniWzt) and use git clone to create your copy of the code.
 
 ## Introduction
 
