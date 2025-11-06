@@ -59,7 +59,7 @@ Your task is to implement the code to
 **For extra credit**, you may implement code to print out the maze pictorially, as seen above.
 ```
 
-The code you have includes the file `maze.cpp`, and two sample mazes, `maze1.txt` and `maze2.txt`.
+The code you have includes the file `main.cpp`, and two sample mazes, `maze1.txt` and `maze2.txt`.
 
 ### Details
 
