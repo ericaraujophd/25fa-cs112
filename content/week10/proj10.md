@@ -11,7 +11,7 @@ From Giphy by @hmd_global
 
 ## Step 0: Set Up
 
-[Accept the assignment]() and use `git clone` to create your copy of the code.
+[Accept the assignment](https://classroom.github.com/a/uGlXo176) and use `git clone` to create your copy of the code.
 
 ## Step 1. Try it out
 
@@ -56,7 +56,7 @@ for (Queue<Pair<int>>::iterator it = snake.begin(); it != snake.end(); it++) {
 To run your program you have to provide two *command-line arguments*: your Bridges UserName and your Bridges Id. E.g., I run the program this way:
 
 ```bash
-./snake VictorNorman 1313148564
+./snake EricAraujo 123456789
 ```
 
 Recall that you can get your username and id from the bridges website: <http://bridges-cs.herokuapp.com/>
