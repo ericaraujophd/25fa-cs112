@@ -15,7 +15,7 @@ To log in to ChatGPT (as if you didn't already know :-), go to [https://chatgpt.
 
 After the AI generates C++ code, copy and paste it into a file, and compile and run it. You will be submitting multiple files each containing a `main()` in it.
 
-[Accept the assignment]().
+[Accept the assignment](https://classroom.github.com/a/OuAcJcfx).
 
 ## Part 1: Reverse an array, recursively
 
