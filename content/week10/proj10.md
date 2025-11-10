@@ -5,9 +5,13 @@
 1. Use a Queue to implement the snake game.
 2. Gain experience using more complex data structures.
 
+:::{figure} ../figures/snake-game.gif
+From Giphy by @hmd_global
+:::
+
 ## Step 0: Set Up
 
-[Accept the assignment]() and use `git clone` to create your copy of the code. Make sure you and your partner are in the same Team.
+[Accept the assignment]() and use `git clone` to create your copy of the code.
 
 ## Step 1. Try it out
 
@@ -22,10 +26,6 @@ We will use the [Bridges library](http://bridges-cs.herokuapp.com/signup) to vis
 name: proj10-button
 ---
 Button to connect to game
-```
-
-```{warning}
-Because we are using the BRIDGES library, you will have to work on machines in the lab!
 ```
 
 For our implementation, we'll use a queue to represent the body of the snake. As the snake moves a new block is added to the end of the queue — which is the front of the snake — and the last block of the body is removed from the tail — which is the head of the queue. Each item in the queue will be a Pair of integers, representing the $(x, y)$ location of the block ($x$ is vertical and $y$ is horizontal). So, the snake's queue will be defined as
