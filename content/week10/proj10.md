@@ -5,7 +5,7 @@
 1. Use a Queue to implement the snake game.
 2. Gain experience using more complex data structures.
 
-:::{figure} ../figures/snake-game.gif
+:::{figure} ../../figures/snake-game.gif
 From Giphy by @hmd_global
 :::
 
