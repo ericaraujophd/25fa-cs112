@@ -1,8 +1,5 @@
 ---
 title: "Lab 09: Hint isFull()"
-format: 
-  html:
-    css: /labs/lab-styles.css
 ---
 
 The stub of `isFull()` should look like this:

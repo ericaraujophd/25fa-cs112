@@ -1,8 +1,5 @@
 ---
 title: "Lab 09: Hint pop()"
-format: 
-  html:
-    css: /labs/lab-styles.css
 ---
 
 The stub of `pop()` should look like this:

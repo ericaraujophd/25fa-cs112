@@ -63,7 +63,6 @@ Add code in **functions.cpp** in `insurance()` to implement the insurance plan s
 ```{list-table} Cost of the plans silver and gold
 :header-rows: 1
 :align: center
-:widths: 20 20 20 20
 
 * - Plan Name
   - 1 Month

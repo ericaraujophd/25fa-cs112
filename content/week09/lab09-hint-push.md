@@ -1,8 +1,5 @@
 ---
 title: "Lab 09: Hint push()"
-format: 
-  html:
-    css: /labs/lab-styles.css
 ---
 
 The stub of `push()` should look like this:

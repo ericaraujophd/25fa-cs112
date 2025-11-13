@@ -1,8 +1,5 @@
 ---
 title: "Lab 09: Hint pop() 2"
-format: 
-  html:
-    css: /labs/lab-styles.css
 ---
 
 To throw an exception when the stack is empty, the `pop()` method should behave as follows:

@@ -1,8 +1,5 @@
 ---
 title: "Lab 09: Hint peekTop()"
-format: 
-  html:
-    css: /labs/lab-styles.css
 ---
 
 The stub of `peekTop()` should look like this:
