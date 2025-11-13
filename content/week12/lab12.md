@@ -461,13 +461,29 @@ If you find that your results for an experiment are consistent with those of you
 
 ## Grading Rubric
 
-20 points total
+30 points total
 
-- 5 points for each of the 4 parts. Those 5 points consist of:
-  - 2 points for code correctness
-  - 3 points for your analysis of the code.
+- Code correctness and implementations — 15 pts
+   - 3 pts: Baseline (sequential) addition and transpose pass tests; baseline timing collected.
+   - 3 pts: `#pragma omp parallel for` implemented correctly for addition (no data races, correct results).
+   - 3 pts: `#pragma omp parallel for` implemented correctly for transpose (handles non-sequential access, correct results).
+   - 3 pts: `schedule(dynamic)` and `schedule(dynamic, 2)` variants applied to both operations; builds and runs with timings recorded.
+   - 3 pts: `#pragma omp parallel { ... }` block version implemented for both operations; results correct.
 
-Ways students lost points in the past:
+- Experiments and data collection — 8 pts
+   - 4 pts: Time trials run with 10 iterations; averages computed; log file(s) produced for runs and kept with submission or referenced in report.
+   - 4 pts: Thread-scaling experiment using `omp_set_num_threads()` for 1, 2, 4, 8, 16 threads with corresponding times recorded.
 
-- -12: no analysis was given.
-- -3: some of the questions were not answered properly.
+- Visualization and analysis — 7 pts
+   - 3 pts: Chart comparing sequential vs parallel (default threads) for addition and transpose, clearly labeled (axes, units, legend/titles).
+   - 2 pts: Chart showing execution time vs. number of threads (1, 2, 4, 8, 16) for both operations, clearly labeled.
+   - 2 pts: Written analysis answers all prompts, compares approaches, and explains observed differences using memory-access patterns and scheduling effects.
+
+Common deductions (applied as needed)
+
+- -3: Missing or incorrect timing methodology (e.g., not averaging multiple trials).
+- -3: One or more parallel variants produce incorrect results (failing tester).
+- -2: Charts missing labels/units or not readable.
+- -2: Thread-scaling results incomplete (missing one or more thread counts).
+- -2: Report lacks discussion connecting results to access patterns or scheduling.
+- -1: Build warnings not addressed (except the documented OpenMP unsigned loop warning), messy submission, or poor formatting.
