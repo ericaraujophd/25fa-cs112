@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 04
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 04
+authors: null
+---
 
 ## SLOs for Week 04: Vectors — Dynamic Arrays
 

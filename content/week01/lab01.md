@@ -1,4 +1,8 @@
-# Lab 01: Control Structures
+---
+title: Lab 01
+subtitle: Control Structures
+date: 2025-09-09
+---
 
 ## Objectives
 

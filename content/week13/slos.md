@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 13
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 13
+authors: null
+---
 
 ## SLOs for Week 13: STL set and map containers
 

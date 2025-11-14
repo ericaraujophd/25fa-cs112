@@ -1,4 +1,7 @@
-# Lab 02: File I/O, Control Structures, and the Debugger
+---
+title: Lab 02
+subtitle: File I/O, Control Structures, and the Debugger
+---
 
 ## Objectives
 

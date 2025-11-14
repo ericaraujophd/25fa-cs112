@@ -1,4 +1,7 @@
-# Lab 03: Classes
+---
+title: Lab 03
+subtitle: Classes
+---
 
 ## Part 0. Prepare
 
