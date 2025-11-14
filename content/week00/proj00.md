@@ -1,4 +1,7 @@
-# Project 00: Exploring types, etc.
+---
+title: Project 00
+subtitle: Exploring types, addresses, and more
+---
 
 :::{figure} imgs/xkcd-99.png
 :alt: XKCD Comic #99 - Binary Heart: A binary representation forming a heart shape

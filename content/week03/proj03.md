@@ -1,4 +1,7 @@
-# Project 03: a High Scores Class
+---
+title: Project 03
+subtitle: A High Scores Class
+---
 
 ## Introduction
 

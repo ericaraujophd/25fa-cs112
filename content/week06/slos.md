@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 06
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 06
+authors: null
+---
 
 ## SLOs for Week 06: Linked Lists, Dynamic Array or Linked List
 

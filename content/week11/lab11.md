@@ -1,4 +1,7 @@
-# Lab 11: Binary Search Trees
+---
+title: Lab 11
+subtitle: Binary Search Trees
+---
 
 ## Objectives
 

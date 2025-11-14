@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 08
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 08
+authors: null
+---
 
 ## SLOs for Week 08: Algorithm Analysis and Big-Oh
 

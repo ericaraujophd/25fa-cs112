@@ -1,4 +1,7 @@
-# Project 04: More Vec Operations
+---
+title: Project 04
+subtitle: More Vec Operations
+---
 
 ## Objectives
 

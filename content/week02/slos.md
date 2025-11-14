@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 02
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 02
+authors: null
+---
 
 ## SLOs for Week 02: File Input/Output, Exception Handling, Two-dimensional Arrays
 

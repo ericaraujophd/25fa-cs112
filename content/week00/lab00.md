@@ -1,4 +1,9 @@
-# Lab 00: Getting Started
+---
+title: Lab 00
+subtitle: Getting Started
+date: 2025-09-02
+---
+
 
 ```{figure} imgs/lab00-soitbegins.gif
 :name: lab00-soitbegins

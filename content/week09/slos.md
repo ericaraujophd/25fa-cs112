@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 09
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 09
+authors: null
+---
 
 ## SLOs for Week 09: Stacks and Queues
 

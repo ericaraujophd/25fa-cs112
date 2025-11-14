@@ -1,4 +1,7 @@
-# Project 02: Falling Sand Simulator
+---
+title: Project 02
+subtitle: Falling Sand Simulator
+---
 
 ## Step 0. Prepare
 

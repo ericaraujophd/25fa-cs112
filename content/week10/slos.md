@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 10
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 10
+authors: null
+---
 
 ## SLOs for Week 10: Recursion
 

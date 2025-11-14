@@ -1,4 +1,7 @@
-# Lab 14: Hash Tables Project
+---
+title: Lab 14
+subtitle: Hash Tables
+---
 
 ## Learning Objectives
 

@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 01
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 01
+authors: null
+---
 
 ## SLOs for Week 01: Control Structures, Functions, Parameter Passing modes
 

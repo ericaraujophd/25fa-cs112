@@ -1,4 +1,7 @@
-# Project 01: More Control Structures
+---
+title: Project 01
+subtitle: More Control Structures
+---
 
 ## Objectives
 

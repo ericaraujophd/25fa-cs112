@@ -1,4 +1,7 @@
-# Lab 10: Recursion
+---
+title: Lab 10
+subtitle: Recursion
+---
 
 ## Learning Objectives
 

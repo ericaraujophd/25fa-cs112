@@ -1,4 +1,7 @@
-# Project 05: Processing Video Game Data
+---
+title: Project 05
+subtitle: Processing Video Game Data
+---
 
 ## Introduction
 

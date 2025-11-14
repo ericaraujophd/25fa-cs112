@@ -1,4 +1,7 @@
-# Lab 4: Vec — A First Dynamic Data Structure
+---
+title: Lab 04
+subtitle: Vec — A First Dynamic Data Structure
+---
 
 ## Objectives
 

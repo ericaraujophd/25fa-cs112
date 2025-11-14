@@ -1,4 +1,8 @@
-# SLOs, Slides, and Assignments for Week 11
+---
+title: SLOs, Slides, and Assignments
+subtitle: Week 11
+authors: null
+---
 
 ## SLOs for Week 11: BSTs
 

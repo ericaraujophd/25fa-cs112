@@ -1,4 +1,7 @@
-# Project 11: Binary Search Trees
+---
+title: Project 11
+subtitle: Binary Search Trees
+---
 
 ## Objectives
 

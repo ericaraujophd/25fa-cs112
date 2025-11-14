@@ -1,4 +1,7 @@
-# Lab 05: Generic Containers (Templates)
+---
+title: Lab 05
+subtitle: Generic Containers (Templates)
+---
 
 ## Objectives
 
