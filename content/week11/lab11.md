@@ -14,7 +14,7 @@ Today's exercise is to complete a class template named BST from which binary sea
 
 ## Getting Started
 
-Accept the [invitation from github classroom]() and use git clone, as usual.
+Accept the [invitation from github classroom](https://classroom.github.com/a/irkDed9_) and use git clone, as usual.
 
 Edit the **README.md** file to add both your names and your partner's, and make sure you are in the same Team.
 
@@ -87,15 +87,33 @@ As before, this tree's height is 7, its diameter is 7, and its maximum width is 
 
 In **tests.cpp**, uncomment the `TEST_CASE` for "insert()". Save/compile, and verify that you get a compilation error indicating that `insert()` is undeclared.
 
-Add a prototype of `insert()` to our BST class; then recompile and verify that only a linking error remains.
+<!-- Add a prototype of `insert()` to our BST class; then recompile and verify that only a linking error remains. -->
 
-In **BST.h**, below the class declaration, create a stub for `BST::insert()` (a "stub" is code that does nothing -- it just returns). Recompile, and when all errors have been eliminated, run the test. Then define `BST::insert()` so that it passes the test. Here is a [hint](lab11-hint.md), in case you get stuck, but do your best to build this method without looking at the hint. Run the project, and verify that everything works correctly at the outset.
+In **BST.h**, below the class declaration, create a stub for `BST::insert()` (a "stub" is code that does nothing -- it just returns) and a stub for `BST::Node::insert()`. Recompile, and when all errors have been eliminated, run the test. Then define both `BST::insert()` and `BST::Node::insert()` so that it passes the test. 
+
+You will need to define insert functions in both the BST class, and additionally within the Node struct within the BST class. Both will look the same!
+``` cpp
+void insert(const Item& it);
+```
+
+Do your best to implement these two insert functions. The job of the `BST::insert()` function is to setup the Node tree if it doesn't exist by making the initial node, and if the Node tree does exist, it needs to pass-the-buck to the `BST::Node::insert()` function to deal with it recursively. It additionally counts how many items are in the tree. 
+
+The `BST::Node::insert()` function needs to correctly insert the new `Item it` into the pre-existing Node tree recursively - checking whether it needs to be inserted correctly to the left (less than) or to the right (greater than). Our BST does not need to deal with duplicates! If a duplicate is given, we need to throw an Exception back. We have provided an Exception.h file to use for this. Once the item is recursively `insert()` to the place in the tree where it can be added (ie, a blank nullptr for left or right) then it will make and attach a new `Node(it)` to the tree and return.
+
+If you need more help than what is provided here, there is a [hint](lab11-hint.md) in case you get stuck. You should be able to build this method without looking at the hint though! Keep trying and rebuilding your project until the `insert()` section in tests.cpp passes completely.
 
 ## The contains() Method
 
 In **tests.cpp**, uncomment the `TEST_CASE` for `contains()`. Take a few minutes to look over the tests it contains, specifically how `contains()` is used. As can be seen, the `contains(it)` method returns *true* if it is in its BST; otherwise it returns false. Save/compile your project. You should see an error indicating that there is no method matching the calls in our test-method.
 
-Modify **BST.h** as necessary to fix any compilation/linking errors, using an approach similar to the approach used in `insert()`. Recompile and run the tests. If you get stuck, here is a [hint](lab11-hint2.md), but don't use it unless you have to.
+Modify **BST.h** as necessary to fix any compilation/linking errors, using an approach similar to the approach used in `insert()`.
+
+You will need to define contains functions in both the BST class, and additionally within the Node struct within the BST class. Both will look the same!
+``` cpp
+bool contains(const Item& it) const;
+```
+
+Do your best to implement these two contains functions. If you get stuck, here is a [hint](lab11-hint2.md), but don't use it unless you have to. You should be able to build this method without looking at the hint! Keep trying and rebuilding your project until the `contains()` section in tests.cpp passes completely.
 
 Continue when your method passes the test.
 
