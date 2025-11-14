@@ -21,7 +21,23 @@ Students will be able to...
 
 In this exercise, you will take two time-consuming Matrix operations and "parallelize" them, so that they run faster on a multicore CPU. The operations we will parallelize today are simple ones: Matrix addition, and Matrix tranpose().
 
-[Accept the assignment]().
+[Accept the assignment](https://classroom.github.com/a/YhX08Mui).
+
+## Coder Reconfiguration
+
+In today's lab, we want to test the effect of multi-core CPUs and parallel programming. Coder allows us to use more CPUs than what probably is configured currently. So before we clone our assignment today, we want to make a configuration change to our Coder workspace.
+
+Log into [https://coder.cs.calvin.edu](https://coder.cs.calvin.edu). Once logged in, find your workspace (hopefully named something like cs112) and click the kebab menu and select Settings. 
+
+:::{figure} coder-workspace-settings.png
+:::
+
+From here, navigate to the Parameters tab, and update your CPU cores to 8 and the memory to 8GB.
+
+:::{figure} coder-workspace-parameters.png
+:::
+
+Click "Update" and restart the coder workspace as needed. Now you can open up VS Code and connect to Coder as usual. Clone your new repository and move onto the next section. 
 
 ### Matrix Addition
 
@@ -131,22 +147,25 @@ In your project repository you should see these files listed:
 Makefile
 Matrix.h
 Matrix.cpp
-MatrixTester.h
-MatrixTester.cpp
 MatrixTimer.h
 runTimeTrials.cpp
-tester.cpp
+tests.cpp
 ```
 
 plus a folder named `testFiles` that contains some test matrices. 
 
+<!-- 
 :::{admonition} IMPORTANT
 :class: warning
 One of these matrices is fairly large (4096 x 4096). This file is compreessed, so you will need to unzip it before using it. The original size of this file is about 100+ MB and it is ignored intentionally in git. Make sure that, after you unzip it, you don't change the `.gitignore` file.
 :::
 
+Note: These files are auto-generated now via make.
+-->
+
 Take a few minutes to open the files, look over their contents, to see what they do and how they do it. Once you understand what purpose each file serves, continue.
 
+<!-- 
 ## Building
 
 Unlike past exercises, we are going to use a `Makefile` to build the files for today's exercise, to simplify the task of building our multicore application. If you want, open up the `Makefile` and look over its contents. After a series of variable declarations, you should see a series of groups of lines, each with the form:
@@ -170,24 +189,27 @@ You should then see the make program performing the commands that compile the di
 Note that if you are working on your own MacOS or Windows computer, the build probably failed, saying that the `-fopenmp` flag is unknown. Use the lab remote desktop computer instead, as it has a more complete version of g++ installed that supports OpenMP.
 :::
 
+-->
+
 <!-- To fix this problem, you will need to install a more complete version of g++ on your computer before you can proceed. See these instructions for suggestions on how to do so. -->
 
-The make program uses the information in the Makefile. If you compare the commands that are executed to build your project with those in the Makefile, you can trace the recursive logic that make uses as it compiles and links your files.
+<!-- The make program uses the information in the Makefile. If you compare the commands that are executed to build your project with those in the Makefile, you can trace the recursive logic that make uses as it compiles and links your files. -->
 
 <!-- It is worth mentioning that in a standard (i.e., non-Makefile) Eclipse project, there is still a Makefile behind the scenes coordinating the compilation and linking. The difference is that in a standard project, Eclipse auto-generates its own Makefile (it is stored in the project's Debug folder), while in a Makefile-project, the programmer must supply the Makefile. -->
 
-When the build is finished, several new files will be present in your `lab12` folder, including `runTimeTrials` and `tester`. You can view these files in either of several ways:
+<!-- When the build is finished, several new files will be present in your `lab12` folder, including `runTimeTrials` and `tester`. You can view these files in either of several ways:
 
 - From the Terminal by entering `ls`; or
 - From your File Manager application.
 
-You should also see several files whose names end in `.o`, which you can ignore--they are the intermediate files the g++ compiler creates and links together to create a binary executable file.
+You should also see several files whose names end in `.o`, which you can ignore--they are the intermediate files the g++ compiler creates and links together to create a binary executable file. -->
 
 ## Running the Tests
 
 Let's start by running the tester program. To run it, go to your open Terminal window, and enter:
 
 ```bash
+make
 ./tester
 ```
 
@@ -258,13 +280,7 @@ Matrix Matrix::operator+(const Matrix& mat2) const {
 
 Inserting this directive will cause different threads to perform different iterations of the outer for loop, so that different rows of the Matrix will be summed by different threads. By default, the number of threads is the number of cores on the computer, so on a dual-core computer, 2 threads will be used; on a quad-core computer, 4 threads will be used; and so on.
 
-Use the same approach to "parallelize" the `transpose` operation. With these directives in place, rebuild your program. (Make sure you have saved your file first!) If you see two warnings:
-
-```bash
-warning: iteration variable 'rows' is unsigned
-```
-
-you may safely ignore them -- they are a bug in OpenMP -- but you may not ignore any other warnings!
+Use the same approach to "parallelize" the `transpose` operation. With these directives in place, rebuild your program. (Make sure you have saved your file first!) 
 
 Then rerun `runTimeTrials`. Is the average time for addition very different? What about the average time for `transpose()`?
 
