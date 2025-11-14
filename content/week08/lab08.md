@@ -1,4 +1,7 @@
-# Lab 08: Timing List and Vector Operations
+---
+title: Lab 08
+subtitle: Timing List and Vector Operations
+---
 
 ## Objectives
 

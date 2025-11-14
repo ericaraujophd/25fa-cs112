@@ -1,4 +1,7 @@
-# Project 08: Conga!
+---
+title: Project 08
+subtitle: Conga!
+---
 
 ## Objectives
 

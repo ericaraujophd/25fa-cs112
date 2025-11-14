@@ -1,4 +1,7 @@
-# Project 09: Navigate a Maze Using a Stack
+---
+title: Project 09
+subtitle: Navigate a Maze Using a Stack
+---
 
 ## Prepare
 

@@ -1,4 +1,7 @@
-# Lab 09: Stacks and Exceptions and Queues
+---
+title: Lab 09
+subtitle: Stacks and Exceptions and Queues
+---
 
 ## Objectives
 

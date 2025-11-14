@@ -1,4 +1,7 @@
-# Lab 06: More List Operations
+---
+title: Lab 06
+subtitle: More List Operations
+---
 
 ## Objectives
 

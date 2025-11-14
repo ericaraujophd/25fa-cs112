@@ -1,4 +1,7 @@
-# Project 10: Using Queues to Implement the Snake Game
+---
+title: Project 10
+subtitle: Using Queues to Implement the Snake Game
+---
 
 ## Objectives
 
