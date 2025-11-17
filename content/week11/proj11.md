@@ -13,10 +13,10 @@ subtitle: Binary Search Trees
 
 [Accept the assignment](https://classroom.github.com/a/TXyEv_U3) and use `git clone` to create your copy of the code.
 
-This project is:
+The tasks for this project are:
 
-- Add a `getHeight()` to your BST class.
-- Use your `BST<Item>` to conduct an experiment.
+1. Add a `getHeight()` to your BST class.
+2. Use your `BST<Item>` to conduct an experiment.
 
 As usual, you should use test-driven development to accomplish these tasks. Note that part of your grade is based on the thoroughness of your new tests for `getHeight()`.
 
@@ -24,7 +24,7 @@ As usual, you should use test-driven development to accomplish these tasks. Note
 Copy your **Exception.h**, **catch.hpp**, **BST.h**, **makefile**, and **tests.cpp** files from your previous lab, into your repo.
 ```
 
-## Adding getHeight()
+## Adding `getHeight()`
 
 The height of a tree with a root node is defined as the height of the node's taller sub-tree, plus 1. As you can see, this is a **recursive** definition, which needs a **base case**. The base case is that if a node has no children, its height is 1.
 
