@@ -130,7 +130,7 @@ The readings for this course are from [C++ for Python Programmers Book](https://
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">12</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">24-Nov</td>
       <td style="border: 1px solid #ddd; padding: 8px;">AVL Trees</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌</td>
       <td style="border: 1px solid #ddd; padding: 8px;">Thanksgiving Break – no class 26-28</td>
     </tr>
