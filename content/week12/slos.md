@@ -14,6 +14,16 @@ At the end of this unit, students will be able to...
   - articulate the importance of the balance factor in determining when the tree needs to be rebalanced.
   - compute the balance factor for a node.
 
+## SLOs for Week 12: Multiprocessing
+
+By the end of this unit, the student will be able to...
+
+- describe Moore's "law"
+- describe why computer manufacturers could not increase processor speed indefinitely.
+- describe the fork-join paradigm.
+- describe the effect of putting `#pragma omp parallel` in front of a block of statements.
+- describe the effect of putting `#pragma omp parallel for` above a for loop in code.
+
 ```{note} Resources
 - 📜 [Slides - AVL Trees](https://docs.google.com/presentation/d/1SeV3cE7iJItPtG4V9eSg_0HgpqkHDeVSyMvwP2n5m8Y/edit?usp=sharing)
 ```
