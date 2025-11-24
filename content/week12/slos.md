@@ -26,6 +26,7 @@ By the end of this unit, the student will be able to...
 
 ```{note} Resources
 - 📜 [Slides - AVL Trees](https://docs.google.com/presentation/d/1SeV3cE7iJItPtG4V9eSg_0HgpqkHDeVSyMvwP2n5m8Y/edit?usp=sharing)
+- 📜 [Slides - Multiprocessing](https://calvincollege-my.sharepoint.com/:p:/g/personal/ea47_calvin_edu/EVkQd3xRzCNLmWS28muzf4YBbYucZQartb8O5bJ5hniQgg?e=UNZc6m)
 ```
 
 ## Assignments
